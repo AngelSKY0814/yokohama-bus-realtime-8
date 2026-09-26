@@ -6,184 +6,42 @@ from concurrent.futures import ThreadPoolExecutor
 
 courses = [
 {
-    "courseId": "0001600237",
-    "route": "36系統",
-    "destination": "西菅田団地経由 緑車庫前行",
+    "courseId": "統",
+    "destination": "本牧市民公園前経由 本牧車庫前行",
+    "direction": "0001600990",
+    "route": "8系honmoku"
+},
+{
+    "courseId": "0001600980",
+    "route": "8系統",
+    "destination": "本牧車庫前行",
+    "direction": "honmoku"
+},
+{
+    "courseId": "0001601028",
+    "route": "8系統",
+    "destination": "本牧車庫前行",
+    "direction": "honmoku"
+},
+{
+    "courseId": "0001600989",
+    "route": "8系統",
+    "destination": "本牧市民公園経由 横浜駅前行",
     "direction": "up"
 },
 {
-    "courseId": "0001600626",
-    "route": "36系統",
-    "destination": "西菅田団地経由 緑車庫前行",
-    "direction": "up"
-},
-{
-    "courseId": "0001600557",
-    "route": "36系統",
-    "destination": "菅田町経由 緑車庫前行",
-    "direction": "up"
-},
-{
-    "courseId": "0001600486",
-    "route": "36系統",
-    "destination": "菅田町経由 緑車庫前行",
-    "direction": "up"
-},
-{
-    "courseId": "0001600441",
-    "route": "36系統",
-    "destination": "菅田町経由 緑車庫前行",
+    "courseId": "0001600989",
+    "route": "8系統",
+    "destination": "横浜駅前行",
     "direction": "up"
 },
 
 {
-    "courseId": "0001601358",
-    "route": "36系統",
-    "destination": "六角橋経由 西菅田団地行",
+    "courseId": "0001600987",
+    "route": "8系統",
+    "destination": "三渓園入口経由 横浜駅前行",
     "direction": "up"
 },
-{
-    "courseId": "0001601357",
-    "route": "36系統",
-    "destination": "六角橋経由 西菅田団地行",
-    "direction": "up"
-},
-{
-        "courseId": "0001601079",
-        "route": "12系統",
-        "destination": "緑車庫前経由 西菅田団地行",
-        "direction": "nishisugeta"
-    },
-{
-
-        "courseId": "0001600429",
-        "route": "12系統",
-        "destination": "西菅田団地行",
-        "direction": "nishisugeta"
-    },
-{
-
-        "courseId": "0001600290",
-        "route": "12系統",
-        "destination": "白山中央経由　西菅田団地行",
-        "direction": "nishisugeta"
-    },
-{
-
-        "courseId": "0001601392",
-        "route": "295系統",
-        "destination": "西菅田団地行",
-        "direction": "up"
-    },
-
-
-{
-    "courseId": "0001600577",
-    "route": "82系統",
-    "destination": "六角橋経由 八反橋行",
-    "direction": "up"
-},
-{
-    "courseId": "0001600251",
-    "route": "82系統",
-    "destination": "六角橋経由 八反橋行",
-    "direction": "up"
-    },
-    {
-        "courseId": "0001600012",
-        "route": "82系統",
-        "destination": "六角橋経由 横浜駅西口行",
-        "direction": "yokohama"
-    },
-    {
-        "courseId": "0001600145",
-        "route": "82系統",
-        "destination": "六角橋経由 東神奈川駅西口行",
-        "direction": "higashikanagawa"
-    },
-    {
-        "courseId": "0001601355",
-        "route": "36系統",
-        "destination": "六角橋経由 横浜駅西口行",
-        "direction": "yokohama"
-    },
-    {
-        "courseId": "0001600563",
-        "route": "36系統",
-        "destination": "菅田町経由 横浜駅西口行",
-        "direction": "yokohama"
-    },
- {
-        "courseId": "0001600340",
-        "route": "326系統急行",
-        "destination": "西菅田団地経由 横浜駅西口行",
-        "direction": "yokohama"
-    },
-
-    {
-        "courseId": "0001600224",
-        "route": "36系統",
-        "destination": "西菅田団地経由 横浜駅西口行",
-        "direction": "yokohama"
-    },
-    {
-        "courseId": "0001601356",
-        "route": "36系統",
-        "destination": "六角橋経由 東神奈川駅西口行",
-        "direction": "higashikanagawa"
-    },
-    {
-        "courseId": "0001600311",
-        "route": "36系統",
-        "destination": "菅田町経由 東神奈川駅西口行",
-        "direction": "higashikanagawa"
-    },
-    {
-        "courseId": "0001600016",
-        "route": "36系統",
-        "destination": "西菅田団地経由 東神奈川駅西口行",
-        "direction": "higashikanagawa"
-    },
- {
-        "courseId": "0001601414",
-        "route": "36系統",
-        "destination": "西菅田団地経由 片倉町駅前行",
-        "direction": "katakuratyou"
-    },
-  {
-        "courseId": "0001601391",
-        "route": "295系統",
-        "destination": "新横浜駅前行",
-        "direction":"shinyokohama"
-    },
- {
-        "courseId": "0001600498",
-        "route": "12系統",
-        "destination": "鴨居駅前行",
-        "direction":"up"
-    },
-{
-        "courseId": "0001600133",
-        "route": "12系統",
-        "destination": "緑車庫前行",
-        "direction":"up"
-    },
-{
-        "courseId": "0001600500",
-        "route": "12系統",
-        "destination": "白山高校行",
-        "direction": "up"
-    },
-{
-        "courseId": "0001601086",
-        "route": "12系統",
-        "destination": "中山駅前行",
-        "direction":"up"
-    },
-
-
-
-
 
 ]
 
