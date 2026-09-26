@@ -6,10 +6,10 @@ from concurrent.futures import ThreadPoolExecutor
 
 courses = [
 {
-    "courseId": "統",
-    "destination": "本牧市民公園前経由 本牧車庫前行",
-    "direction": "0001600990",
-    "route": "8系honmoku"
+    "courseId": "0001600990",
+     "route": "8系統",
+    "destination": "本牧市民公園経由 本牧車庫前行",
+    "direction": "honmoku"
 },
 {
     "courseId": "0001600980",
