@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>横浜市営バス リアルタイム表示36系統</title>
+<title>横浜市営バス リアルタイム表示8系統</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#f5f5f5;font-family:"Yu Gothic","Meiryo",sans-serif;position:relative;min-height:2300px;overflow:auto}
@@ -17,6 +17,58 @@ body{background:#f5f5f5;font-family:"Yu Gothic","Meiryo",sans-serif;position:rel
 .info-title{font-size:24px;color:#0066cc;font-weight:bold;margin-bottom:12px}.info-label{color:#666;font-size:14px}.info-value{font-size:20px;font-weight:bold;margin-bottom:10px}.update{color:#008000}
 .bus-list{max-height:330px;overflow-y:auto;margin-top:10px}.bus-item{border-top:1px solid #ddd;padding:8px 0;font-size:14px}.bus-item strong{color:#0066cc}
 .status{font-size:13px;color:#666;margin-top:5px}
+  
+/* スマホ向けレイアウト */
+@media (max-width: 700px){
+  body{min-height:2800px;overflow-x:hidden;overflow-y:auto;}
+
+  /* 画面幅に合わせて路線を配置 */
+  .line{left:50vw;width:8px;height:8250px;}
+  .station{left:calc(49vw - 5px);width:28px;height:28px;border-width:4px;}
+
+  /* 停留所名は左側に収める */
+  .station-name{
+    left:2vw;
+    width:30vw;
+    font-size:clamp(15px,0vw,20px);
+    line-height:25px;
+    text-align:left;
+    word-break:keep-all;
+    overflow-wrap:anywhere;
+  }
+
+  /* バスは画面幅に応じて自動縮小 */
+  .bus{
+    width:min(42vw,150px);
+    min-height:62px;
+    font-size:clamp(11px,3.5vw,14px);
+    padding:7px 8px;
+    border-radius:10px;
+  }
+  .bus-left{left:8vw;}
+  .bus-right{left:58vw;}
+  .bus-id,.bus-route{font-size:clamp(10px,3.2vw,13px);}
+  .bus-destination{font-size:clamp(9px,2.8vw,11px);line-height:15px;}
+
+  /* 上部情報パネルも画面内に収める */
+  .info-panel{
+    position:fixed;
+    top:-200px;//バス取得した情報
+    left:8px;
+    right:8px;
+    width:auto;
+    max-height:190px;
+    padding:10px;
+    border-radius:10px;
+  }
+  .info-title{font-size:18px;margin-bottom:5px;}
+  .info-label{font-size:11px;}
+  .info-value{font-size:16px;margin-bottom:5px;}
+  .bus-list{max-height:75px;margin-top:5px;}
+  .bus-item{padding:5px 0;font-size:11px;}
+  .status{font-size:10px;}
+}
+  
 </style>
 </head>
 <body>
