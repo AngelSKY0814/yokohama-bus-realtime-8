@@ -1,3344 +1,961 @@
-{
-  "updated": "2026-09-20 21:12:37",
+updated": "2026-09-26 20:48:43",
   "routes": [
     {
-      "courseId": "0001600012",
-      "route": "82系統",
-      "destination": "六角橋経由 横浜駅西口行",
-      "direction": "yokohama",
-      "stopCount": 22,
+      "courseId": "0001600990",
+      "route": "8系統",
+      "destination": "本牧市民公園経由 本牧車庫前行",
+      "direction": "honmoku",
+      "stopCount": 31,
       "stops": [
         {
-          "name": "八反橋",
-          "latitude": 35.494087,
-          "longitude": 139.600624
+          "name": "横浜駅前",
+          "latitude": 35.465246,
+          "longitude": 139.624825
         },
         {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495047,
-          "longitude": 139.605101
+          "name": "高島町",
+          "latitude": 35.458492,
+          "longitude": 139.624495
         },
         {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.607472
+          "name": "花咲橋",
+          "latitude": 35.455539,
+          "longitude": 139.626801
         },
         {
-          "name": "下耕地",
-          "latitude": 35.491198,
-          "longitude": 139.60729
-        },
-        {
-          "name": "片倉町駅前",
-          "latitude": 35.490219,
-          "longitude": 139.606881
-        },
-        {
-          "name": "片倉町",
-          "latitude": 35.489752,
-          "longitude": 139.607976
-        },
-        {
-          "name": "日枝橋",
-          "latitude": 35.488151,
-          "longitude": 139.609256
-        },
-        {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.487505,
-          "longitude": 139.611884
-        },
-        {
-          "name": "神大寺",
-          "latitude": 35.486943,
-          "longitude": 139.616143
-        },
-        {
-          "name": "六角橋西町",
-          "latitude": 35.486788,
-          "longitude": 139.61854
-        },
-        {
-          "name": "神奈川大学入口",
-          "latitude": 35.486939,
-          "longitude": 139.623691
-        },
-        {
-          "name": "六角橋",
-          "latitude": 35.486141,
-          "longitude": 139.626539
-        },
-        {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484643,
-          "longitude": 139.628011
-        },
-        {
-          "name": "東白楽",
-          "latitude": 35.482808,
-          "longitude": 139.629752
-        },
-        {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.481054,
-          "longitude": 139.631354
-        },
-        {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478297,
-          "longitude": 139.633033
-        },
-        {
-          "name": "二ツ谷町",
-          "latitude": 35.474908,
-          "longitude": 139.63013
-        },
-        {
-          "name": "反町",
-          "latitude": 35.473119,
-          "longitude": 139.628515
-        },
-        {
-          "name": "青木橋",
-          "latitude": 35.470647,
-          "longitude": 139.626275
-        },
-        {
-          "name": "鶴屋町２丁目",
-          "latitude": 35.469161,
-          "longitude": 139.621564
-        },
-        {
-          "name": "鶴屋町３丁目",
-          "latitude": 35.468638,
-          "longitude": 139.619048
-        },
-        {
-          "name": "横浜駅西口",
-          "latitude": 35.466408,
-          "longitude": 139.621193
-        }
-      ]
-    },
-    {
-      "courseId": "0001600145",
-      "route": "82系統",
-      "destination": "六角橋経由 東神奈川駅西口行",
-      "direction": "higashikanagawa",
-      "stopCount": 16,
-      "stops": [
-        {
-          "name": "八反橋",
-          "latitude": 35.494087,
-          "longitude": 139.600624
-        },
-        {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495047,
-          "longitude": 139.605101
-        },
-        {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.607472
-        },
-        {
-          "name": "下耕地",
-          "latitude": 35.491198,
-          "longitude": 139.60729
-        },
-        {
-          "name": "片倉町駅前",
-          "latitude": 35.490219,
-          "longitude": 139.606881
-        },
-        {
-          "name": "片倉町",
-          "latitude": 35.489752,
-          "longitude": 139.607976
-        },
-        {
-          "name": "日枝橋",
-          "latitude": 35.488151,
-          "longitude": 139.609256
-        },
-        {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.487505,
-          "longitude": 139.611884
-        },
-        {
-          "name": "神大寺",
-          "latitude": 35.486943,
-          "longitude": 139.616143
-        },
-        {
-          "name": "六角橋西町",
-          "latitude": 35.486788,
-          "longitude": 139.61854
-        },
-        {
-          "name": "神奈川大学入口",
-          "latitude": 35.486939,
-          "longitude": 139.623691
-        },
-        {
-          "name": "六角橋",
-          "latitude": 35.486141,
-          "longitude": 139.626539
-        },
-        {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484643,
-          "longitude": 139.628011
-        },
-        {
-          "name": "東白楽",
-          "latitude": 35.482808,
-          "longitude": 139.629752
-        },
-        {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.481054,
-          "longitude": 139.631354
-        },
-        {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478495,
-          "longitude": 139.632686
-        }
-      ]
-    },
-    {
-      "courseId": "0001601355",
-      "route": "36系統",
-      "destination": "六角橋経由 横浜駅西口行",
-      "direction": "yokohama",
-      "stopCount": 32,
-      "stops": [
-        {
-          "name": "西菅田団地",
-          "latitude": 35.497969,
-          "longitude": 139.574025
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500523,
-          "longitude": 139.576491
-        },
-        {
-          "name": "ひまわり団地前",
-          "latitude": 35.502028,
-          "longitude": 139.5793
-        },
-        {
-          "name": "小川橋",
-          "latitude": 35.500676,
-          "longitude": 139.582431
-        },
-        {
-          "name": "道路碑前",
-          "latitude": 35.500981,
-          "longitude": 139.584575
-        },
-        {
-          "name": "中村",
-          "latitude": 35.500812,
-          "longitude": 139.587806
-        },
-        {
-          "name": "長導寺前",
-          "latitude": 35.500609,
-          "longitude": 139.591896
-        },
-        {
-          "name": "猿渡",
-          "latitude": 35.499798,
-          "longitude": 139.59471
-        },
-        {
-          "name": "神明社入口",
-          "latitude": 35.499635,
-          "longitude": 139.598551
-        },
-        {
-          "name": "熊の堂",
-          "latitude": 35.498504,
-          "longitude": 139.600991
-        },
-        {
-          "name": "菅田町入口",
-          "latitude": 35.496997,
-          "longitude": 139.602738
-        },
-        {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495047,
-          "longitude": 139.605101
-        },
-        {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.607472
-        },
-        {
-          "name": "下耕地",
-          "latitude": 35.491198,
-          "longitude": 139.60729
-        },
-        {
-          "name": "片倉町駅前",
-          "latitude": 35.490219,
-          "longitude": 139.606881
-        },
-        {
-          "name": "片倉町",
-          "latitude": 35.489752,
-          "longitude": 139.607976
-        },
-        {
-          "name": "日枝橋",
-          "latitude": 35.488151,
-          "longitude": 139.609256
-        },
-        {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.487505,
-          "longitude": 139.611884
-        },
-        {
-          "name": "神大寺",
-          "latitude": 35.486943,
-          "longitude": 139.616143
-        },
-        {
-          "name": "六角橋西町",
-          "latitude": 35.486788,
-          "longitude": 139.61854
-        },
-        {
-          "name": "神奈川大学入口",
-          "latitude": 35.486939,
-          "longitude": 139.623691
-        },
-        {
-          "name": "六角橋",
-          "latitude": 35.486141,
-          "longitude": 139.626539
-        },
-        {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484643,
-          "longitude": 139.628011
-        },
-        {
-          "name": "東白楽",
-          "latitude": 35.482808,
-          "longitude": 139.629752
-        },
-        {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.481054,
-          "longitude": 139.631354
-        },
-        {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478297,
-          "longitude": 139.633033
-        },
-        {
-          "name": "二ツ谷町",
-          "latitude": 35.474908,
-          "longitude": 139.63013
-        },
-        {
-          "name": "反町",
-          "latitude": 35.473119,
-          "longitude": 139.628515
-        },
-        {
-          "name": "青木橋",
-          "latitude": 35.470647,
-          "longitude": 139.626275
-        },
-        {
-          "name": "鶴屋町２丁目",
-          "latitude": 35.469161,
-          "longitude": 139.621564
-        },
-        {
-          "name": "鶴屋町３丁目",
-          "latitude": 35.468638,
-          "longitude": 139.619048
-        },
-        {
-          "name": "横浜駅西口",
-          "latitude": 35.466408,
-          "longitude": 139.621193
-        }
-      ]
-    },
-    {
-      "courseId": "0001600563",
-      "route": "36系統",
-      "destination": "菅田町経由 横浜駅西口行",
-      "direction": "yokohama",
-      "stopCount": 38,
-      "stops": [
-        {
-          "name": "緑車庫前",
-          "latitude": 35.506643,
-          "longitude": 139.558419
-        },
-        {
-          "name": "白山一丁目",
-          "latitude": 35.508783,
-          "longitude": 139.560301
-        },
-        {
-          "name": "鴨居橋",
-          "latitude": 35.509494,
-          "longitude": 139.563101
-        },
-        {
-          "name": "鴨居駅前",
-          "latitude": 35.51032,
-          "longitude": 139.567434
-        },
-        {
-          "name": "東通",
-          "latitude": 35.507251,
-          "longitude": 139.568346
-        },
-        {
-          "name": "南通（緑区）",
-          "latitude": 35.504418,
-          "longitude": 139.568277
-        },
-        {
-          "name": "原通",
-          "latitude": 35.503728,
-          "longitude": 139.57098
-        },
-        {
-          "name": "菅田町",
-          "latitude": 35.503164,
-          "longitude": 139.574461
-        },
-        {
-          "name": "ひまわり団地前",
-          "latitude": 35.502028,
-          "longitude": 139.5793
-        },
-        {
-          "name": "小川橋",
-          "latitude": 35.500676,
-          "longitude": 139.582431
-        },
-        {
-          "name": "道路碑前",
-          "latitude": 35.500981,
-          "longitude": 139.584575
-        },
-        {
-          "name": "中村",
-          "latitude": 35.500812,
-          "longitude": 139.587806
-        },
-        {
-          "name": "長導寺前",
-          "latitude": 35.500609,
-          "longitude": 139.591896
-        },
-        {
-          "name": "猿渡",
-          "latitude": 35.499798,
-          "longitude": 139.59471
-        },
-        {
-          "name": "神明社入口",
-          "latitude": 35.499635,
-          "longitude": 139.598551
-        },
-        {
-          "name": "熊の堂",
-          "latitude": 35.498504,
-          "longitude": 139.600991
-        },
-        {
-          "name": "菅田町入口",
-          "latitude": 35.496997,
-          "longitude": 139.602738
-        },
-        {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495047,
-          "longitude": 139.605101
-        },
-        {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.607472
-        },
-        {
-          "name": "下耕地",
-          "latitude": 35.491198,
-          "longitude": 139.60729
-        },
-        {
-          "name": "片倉町駅前",
-          "latitude": 35.490219,
-          "longitude": 139.606881
-        },
-        {
-          "name": "片倉町",
-          "latitude": 35.489752,
-          "longitude": 139.607976
-        },
-        {
-          "name": "日枝橋",
-          "latitude": 35.488151,
-          "longitude": 139.609256
-        },
-        {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.487505,
-          "longitude": 139.611884
-        },
-        {
-          "name": "神大寺",
-          "latitude": 35.486943,
-          "longitude": 139.616143
-        },
-        {
-          "name": "六角橋西町",
-          "latitude": 35.486788,
-          "longitude": 139.61854
-        },
-        {
-          "name": "神奈川大学入口",
-          "latitude": 35.486939,
-          "longitude": 139.623691
-        },
-        {
-          "name": "六角橋",
-          "latitude": 35.486141,
-          "longitude": 139.626539
-        },
-        {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484643,
-          "longitude": 139.628011
-        },
-        {
-          "name": "東白楽",
-          "latitude": 35.482808,
-          "longitude": 139.629752
-        },
-        {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.481054,
-          "longitude": 139.631354
-        },
-        {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478297,
-          "longitude": 139.633033
-        },
-        {
-          "name": "二ツ谷町",
-          "latitude": 35.474908,
-          "longitude": 139.63013
-        },
-        {
-          "name": "反町",
-          "latitude": 35.473119,
-          "longitude": 139.628515
-        },
-        {
-          "name": "青木橋",
-          "latitude": 35.470647,
-          "longitude": 139.626275
-        },
-        {
-          "name": "鶴屋町２丁目",
-          "latitude": 35.469161,
-          "longitude": 139.621564
-        },
-        {
-          "name": "鶴屋町３丁目",
-          "latitude": 35.468638,
-          "longitude": 139.619048
-        },
-        {
-          "name": "横浜駅西口",
-          "latitude": 35.466408,
-          "longitude": 139.621193
-        }
-      ]
-    },
-    {
-      "courseId": "0001600224",
-      "route": "36系統",
-      "destination": "西菅田団地経由 横浜駅西口行",
-      "direction": "yokohama",
-      "stopCount": 41,
-      "stops": [
-        {
-          "name": "緑車庫前",
-          "latitude": 35.506643,
-          "longitude": 139.558419
-        },
-        {
-          "name": "白山一丁目",
-          "latitude": 35.508783,
-          "longitude": 139.560301
-        },
-        {
-          "name": "鴨居橋",
-          "latitude": 35.509494,
-          "longitude": 139.563101
-        },
-        {
-          "name": "鴨居駅前",
-          "latitude": 35.51032,
-          "longitude": 139.567434
-        },
-        {
-          "name": "東通",
-          "latitude": 35.507251,
-          "longitude": 139.568346
-        },
-        {
-          "name": "南通（緑区）",
-          "latitude": 35.504418,
-          "longitude": 139.568277
-        },
-        {
-          "name": "原通",
-          "latitude": 35.503728,
-          "longitude": 139.57098
-        },
-        {
-          "name": "菅田町",
-          "latitude": 35.503164,
-          "longitude": 139.574461
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500061,
-          "longitude": 139.576223
-        },
-        {
-          "name": "西菅田団地",
-          "latitude": 35.497969,
-          "longitude": 139.574025
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500523,
-          "longitude": 139.576491
-        },
-        {
-          "name": "ひまわり団地前",
-          "latitude": 35.502028,
-          "longitude": 139.5793
-        },
-        {
-          "name": "小川橋",
-          "latitude": 35.500676,
-          "longitude": 139.582431
-        },
-        {
-          "name": "道路碑前",
-          "latitude": 35.500981,
-          "longitude": 139.584575
-        },
-        {
-          "name": "中村",
-          "latitude": 35.500812,
-          "longitude": 139.587806
-        },
-        {
-          "name": "長導寺前",
-          "latitude": 35.500609,
-          "longitude": 139.591896
-        },
-        {
-          "name": "猿渡",
-          "latitude": 35.499798,
-          "longitude": 139.59471
-        },
-        {
-          "name": "神明社入口",
-          "latitude": 35.499635,
-          "longitude": 139.598551
-        },
-        {
-          "name": "熊の堂",
-          "latitude": 35.498504,
-          "longitude": 139.600991
-        },
-        {
-          "name": "菅田町入口",
-          "latitude": 35.496997,
-          "longitude": 139.602738
-        },
-        {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495047,
-          "longitude": 139.605101
-        },
-        {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.607472
-        },
-        {
-          "name": "下耕地",
-          "latitude": 35.491198,
-          "longitude": 139.60729
-        },
-        {
-          "name": "片倉町駅前",
-          "latitude": 35.490219,
-          "longitude": 139.606881
-        },
-        {
-          "name": "片倉町",
-          "latitude": 35.489752,
-          "longitude": 139.607976
-        },
-        {
-          "name": "日枝橋",
-          "latitude": 35.488151,
-          "longitude": 139.609256
-        },
-        {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.487505,
-          "longitude": 139.611884
-        },
-        {
-          "name": "神大寺",
-          "latitude": 35.486943,
-          "longitude": 139.616143
-        },
-        {
-          "name": "六角橋西町",
-          "latitude": 35.486788,
-          "longitude": 139.61854
-        },
-        {
-          "name": "神奈川大学入口",
-          "latitude": 35.486939,
-          "longitude": 139.623691
-        },
-        {
-          "name": "六角橋",
-          "latitude": 35.486141,
-          "longitude": 139.626539
-        },
-        {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484643,
-          "longitude": 139.628011
-        },
-        {
-          "name": "東白楽",
-          "latitude": 35.482808,
-          "longitude": 139.629752
-        },
-        {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.481054,
-          "longitude": 139.631354
-        },
-        {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478297,
-          "longitude": 139.633033
-        },
-        {
-          "name": "二ツ谷町",
-          "latitude": 35.474908,
-          "longitude": 139.63013
-        },
-        {
-          "name": "反町",
-          "latitude": 35.473119,
-          "longitude": 139.628515
-        },
-        {
-          "name": "青木橋",
-          "latitude": 35.470647,
-          "longitude": 139.626275
-        },
-        {
-          "name": "鶴屋町２丁目",
-          "latitude": 35.469161,
-          "longitude": 139.621564
-        },
-        {
-          "name": "鶴屋町３丁目",
-          "latitude": 35.468638,
-          "longitude": 139.619048
-        },
-        {
-          "name": "横浜駅西口",
-          "latitude": 35.466408,
-          "longitude": 139.621193
-        }
-      ]
-    },
-    {
-      "courseId": "0001601356",
-      "route": "36系統",
-      "destination": "六角橋経由 東神奈川駅西口行",
-      "direction": "higashikanagawa",
-      "stopCount": 26,
-      "stops": [
-        {
-          "name": "西菅田団地",
-          "latitude": 35.497969,
-          "longitude": 139.574025
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500523,
-          "longitude": 139.576491
-        },
-        {
-          "name": "ひまわり団地前",
-          "latitude": 35.502028,
-          "longitude": 139.5793
-        },
-        {
-          "name": "小川橋",
-          "latitude": 35.500676,
-          "longitude": 139.582431
-        },
-        {
-          "name": "道路碑前",
-          "latitude": 35.500981,
-          "longitude": 139.584575
-        },
-        {
-          "name": "中村",
-          "latitude": 35.500812,
-          "longitude": 139.587806
-        },
-        {
-          "name": "長導寺前",
-          "latitude": 35.500609,
-          "longitude": 139.591896
-        },
-        {
-          "name": "猿渡",
-          "latitude": 35.499798,
-          "longitude": 139.59471
-        },
-        {
-          "name": "神明社入口",
-          "latitude": 35.499635,
-          "longitude": 139.598551
-        },
-        {
-          "name": "熊の堂",
-          "latitude": 35.498504,
-          "longitude": 139.600991
-        },
-        {
-          "name": "菅田町入口",
-          "latitude": 35.496997,
-          "longitude": 139.602738
-        },
-        {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495047,
-          "longitude": 139.605101
-        },
-        {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.607472
-        },
-        {
-          "name": "下耕地",
-          "latitude": 35.491198,
-          "longitude": 139.60729
-        },
-        {
-          "name": "片倉町駅前",
-          "latitude": 35.490219,
-          "longitude": 139.606881
-        },
-        {
-          "name": "片倉町",
-          "latitude": 35.489752,
-          "longitude": 139.607976
-        },
-        {
-          "name": "日枝橋",
-          "latitude": 35.488151,
-          "longitude": 139.609256
-        },
-        {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.487505,
-          "longitude": 139.611884
-        },
-        {
-          "name": "神大寺",
-          "latitude": 35.486943,
-          "longitude": 139.616143
-        },
-        {
-          "name": "六角橋西町",
-          "latitude": 35.486788,
-          "longitude": 139.61854
-        },
-        {
-          "name": "神奈川大学入口",
-          "latitude": 35.486939,
-          "longitude": 139.623691
-        },
-        {
-          "name": "六角橋",
-          "latitude": 35.486141,
-          "longitude": 139.626539
-        },
-        {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484643,
-          "longitude": 139.628011
-        },
-        {
-          "name": "東白楽",
-          "latitude": 35.482808,
-          "longitude": 139.629752
-        },
-        {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.481054,
-          "longitude": 139.631354
-        },
-        {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478495,
-          "longitude": 139.632686
-        }
-      ]
-    },
-    {
-      "courseId": "0001600311",
-      "route": "36系統",
-      "destination": "菅田町経由 東神奈川駅西口行",
-      "direction": "higashikanagawa",
-      "stopCount": 32,
-      "stops": [
-        {
-          "name": "緑車庫前",
-          "latitude": 35.506643,
-          "longitude": 139.558419
-        },
-        {
-          "name": "白山一丁目",
-          "latitude": 35.508783,
-          "longitude": 139.560301
-        },
-        {
-          "name": "鴨居橋",
-          "latitude": 35.509494,
-          "longitude": 139.563101
-        },
-        {
-          "name": "鴨居駅前",
-          "latitude": 35.51032,
-          "longitude": 139.567434
-        },
-        {
-          "name": "東通",
-          "latitude": 35.507251,
-          "longitude": 139.568346
-        },
-        {
-          "name": "南通（緑区）",
-          "latitude": 35.504418,
-          "longitude": 139.568277
-        },
-        {
-          "name": "原通",
-          "latitude": 35.503728,
-          "longitude": 139.57098
-        },
-        {
-          "name": "菅田町",
-          "latitude": 35.503164,
-          "longitude": 139.574461
-        },
-        {
-          "name": "ひまわり団地前",
-          "latitude": 35.502028,
-          "longitude": 139.5793
-        },
-        {
-          "name": "小川橋",
-          "latitude": 35.500676,
-          "longitude": 139.582431
-        },
-        {
-          "name": "道路碑前",
-          "latitude": 35.500981,
-          "longitude": 139.584575
-        },
-        {
-          "name": "中村",
-          "latitude": 35.500812,
-          "longitude": 139.587806
-        },
-        {
-          "name": "長導寺前",
-          "latitude": 35.500609,
-          "longitude": 139.591896
-        },
-        {
-          "name": "猿渡",
-          "latitude": 35.499798,
-          "longitude": 139.59471
-        },
-        {
-          "name": "神明社入口",
-          "latitude": 35.499635,
-          "longitude": 139.598551
-        },
-        {
-          "name": "熊の堂",
-          "latitude": 35.498504,
-          "longitude": 139.600991
-        },
-        {
-          "name": "菅田町入口",
-          "latitude": 35.496997,
-          "longitude": 139.602738
-        },
-        {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495047,
-          "longitude": 139.605101
-        },
-        {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.607472
-        },
-        {
-          "name": "下耕地",
-          "latitude": 35.491198,
-          "longitude": 139.60729
-        },
-        {
-          "name": "片倉町駅前",
-          "latitude": 35.490219,
-          "longitude": 139.606881
-        },
-        {
-          "name": "片倉町",
-          "latitude": 35.489752,
-          "longitude": 139.607976
-        },
-        {
-          "name": "日枝橋",
-          "latitude": 35.488151,
-          "longitude": 139.609256
-        },
-        {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.487505,
-          "longitude": 139.611884
-        },
-        {
-          "name": "神大寺",
-          "latitude": 35.486943,
-          "longitude": 139.616143
-        },
-        {
-          "name": "六角橋西町",
-          "latitude": 35.486788,
-          "longitude": 139.61854
-        },
-        {
-          "name": "神奈川大学入口",
-          "latitude": 35.486939,
-          "longitude": 139.623691
-        },
-        {
-          "name": "六角橋",
-          "latitude": 35.486141,
-          "longitude": 139.626539
-        },
-        {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484643,
-          "longitude": 139.628011
-        },
-        {
-          "name": "東白楽",
-          "latitude": 35.482808,
-          "longitude": 139.629752
-        },
-        {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.481054,
-          "longitude": 139.631354
-        },
-        {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478495,
-          "longitude": 139.632686
-        }
-      ]
-    },
-    {
-      "courseId": "0001600016",
-      "route": "36系統",
-      "destination": "西菅田団地経由 東神奈川駅西口行",
-      "direction": "higashikanagawa",
-      "stopCount": 35,
-      "stops": [
-        {
-          "name": "緑車庫前",
-          "latitude": 35.506643,
-          "longitude": 139.558419
-        },
-        {
-          "name": "白山一丁目",
-          "latitude": 35.508783,
-          "longitude": 139.560301
-        },
-        {
-          "name": "鴨居橋",
-          "latitude": 35.509494,
-          "longitude": 139.563101
-        },
-        {
-          "name": "鴨居駅前",
-          "latitude": 35.51032,
-          "longitude": 139.567434
-        },
-        {
-          "name": "東通",
-          "latitude": 35.507251,
-          "longitude": 139.568346
-        },
-        {
-          "name": "南通（緑区）",
-          "latitude": 35.504418,
-          "longitude": 139.568277
-        },
-        {
-          "name": "原通",
-          "latitude": 35.503728,
-          "longitude": 139.57098
-        },
-        {
-          "name": "菅田町",
-          "latitude": 35.503164,
-          "longitude": 139.574461
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500061,
-          "longitude": 139.576223
-        },
-        {
-          "name": "西菅田団地",
-          "latitude": 35.497969,
-          "longitude": 139.574025
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500523,
-          "longitude": 139.576491
-        },
-        {
-          "name": "ひまわり団地前",
-          "latitude": 35.502028,
-          "longitude": 139.5793
-        },
-        {
-          "name": "小川橋",
-          "latitude": 35.500676,
-          "longitude": 139.582431
-        },
-        {
-          "name": "道路碑前",
-          "latitude": 35.500981,
-          "longitude": 139.584575
-        },
-        {
-          "name": "中村",
-          "latitude": 35.500812,
-          "longitude": 139.587806
-        },
-        {
-          "name": "長導寺前",
-          "latitude": 35.500609,
-          "longitude": 139.591896
-        },
-        {
-          "name": "猿渡",
-          "latitude": 35.499798,
-          "longitude": 139.59471
-        },
-        {
-          "name": "神明社入口",
-          "latitude": 35.499635,
-          "longitude": 139.598551
-        },
-        {
-          "name": "熊の堂",
-          "latitude": 35.498504,
-          "longitude": 139.600991
-        },
-        {
-          "name": "菅田町入口",
-          "latitude": 35.496997,
-          "longitude": 139.602738
-        },
-        {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495047,
-          "longitude": 139.605101
-        },
-        {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.607472
-        },
-        {
-          "name": "下耕地",
-          "latitude": 35.491198,
-          "longitude": 139.60729
-        },
-        {
-          "name": "片倉町駅前",
-          "latitude": 35.490219,
-          "longitude": 139.606881
-        },
-        {
-          "name": "片倉町",
-          "latitude": 35.489752,
-          "longitude": 139.607976
-        },
-        {
-          "name": "日枝橋",
-          "latitude": 35.488151,
-          "longitude": 139.609256
-        },
-        {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.487505,
-          "longitude": 139.611884
-        },
-        {
-          "name": "神大寺",
-          "latitude": 35.486943,
-          "longitude": 139.616143
-        },
-        {
-          "name": "六角橋西町",
-          "latitude": 35.486788,
-          "longitude": 139.61854
-        },
-        {
-          "name": "神奈川大学入口",
-          "latitude": 35.486939,
-          "longitude": 139.623691
-        },
-        {
-          "name": "六角橋",
-          "latitude": 35.486141,
-          "longitude": 139.626539
-        },
-        {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484643,
-          "longitude": 139.628011
-        },
-        {
-          "name": "東白楽",
-          "latitude": 35.482808,
-          "longitude": 139.629752
-        },
-        {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.481054,
-          "longitude": 139.631354
-        },
-        {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478495,
-          "longitude": 139.632686
-        }
-      ]
-    },
-    {
-      "courseId": "0001601391",
-      "route": "295系統",
-      "destination": "新横浜駅前行",
-      "direction": "shinyokohama",
-      "stopCount": 15,
-      "stops": [
-        {
-          "name": "西菅田団地",
-          "latitude": 35.497969,
-          "longitude": 139.574025
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500523,
-          "longitude": 139.576491
-        },
-        {
-          "name": "ひまわり団地前",
-          "latitude": 35.502028,
-          "longitude": 139.5793
-        },
-        {
-          "name": "小川橋",
-          "latitude": 35.500676,
-          "longitude": 139.582431
-        },
-        {
-          "name": "道路碑前",
-          "latitude": 35.500981,
-          "longitude": 139.584575
-        },
-        {
-          "name": "中村",
-          "latitude": 35.500812,
-          "longitude": 139.587806
-        },
-        {
-          "name": "長導寺前",
-          "latitude": 35.500609,
-          "longitude": 139.591896
-        },
-        {
-          "name": "猿渡",
-          "latitude": 35.499798,
-          "longitude": 139.59471
-        },
-        {
-          "name": "神明社入口",
-          "latitude": 35.499635,
-          "longitude": 139.598551
-        },
-        {
-          "name": "熊の堂",
-          "latitude": 35.498504,
-          "longitude": 139.600991
-        },
-        {
-          "name": "菅田町入口",
-          "latitude": 35.496997,
-          "longitude": 139.602738
-        },
-        {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495047,
-          "longitude": 139.605101
-        },
-        {
-          "name": "山王森公園前",
-          "latitude": 35.497617,
-          "longitude": 139.607398
-        },
-        {
-          "name": "又口橋",
-          "latitude": 35.501314,
-          "longitude": 139.607948
-        },
-        {
-          "name": "新横浜駅前",
-          "latitude": 35.508244,
-          "longitude": 139.617319
-        }
-      ]
-    },
-    {
-      "courseId": "0001601414",
-      "route": "36系統",
-      "destination": "西菅田団地経由 片倉町駅前行",
-      "direction": "katakuratyou",
-      "stopCount": 24,
-      "stops": [
-        {
-          "name": "緑車庫前",
-          "latitude": 35.506643,
-          "longitude": 139.558419
-        },
-        {
-          "name": "白山一丁目",
-          "latitude": 35.508783,
-          "longitude": 139.560301
-        },
-        {
-          "name": "鴨居橋",
-          "latitude": 35.509494,
-          "longitude": 139.563101
-        },
-        {
-          "name": "鴨居駅前",
-          "latitude": 35.51032,
-          "longitude": 139.567434
-        },
-        {
-          "name": "東通",
-          "latitude": 35.507251,
-          "longitude": 139.568346
-        },
-        {
-          "name": "南通（緑区）",
-          "latitude": 35.504418,
-          "longitude": 139.568277
-        },
-        {
-          "name": "原通",
-          "latitude": 35.503728,
-          "longitude": 139.57098
-        },
-        {
-          "name": "菅田町",
-          "latitude": 35.503164,
-          "longitude": 139.574461
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500061,
-          "longitude": 139.576223
-        },
-        {
-          "name": "西菅田団地",
-          "latitude": 35.497969,
-          "longitude": 139.574025
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500523,
-          "longitude": 139.576491
-        },
-        {
-          "name": "ひまわり団地前",
-          "latitude": 35.502028,
-          "longitude": 139.5793
-        },
-        {
-          "name": "小川橋",
-          "latitude": 35.500676,
-          "longitude": 139.582431
-        },
-        {
-          "name": "道路碑前",
-          "latitude": 35.500981,
-          "longitude": 139.584575
-        },
-        {
-          "name": "中村",
-          "latitude": 35.500812,
-          "longitude": 139.587806
-        },
-        {
-          "name": "長導寺前",
-          "latitude": 35.500609,
-          "longitude": 139.591896
-        },
-        {
-          "name": "猿渡",
-          "latitude": 35.499798,
-          "longitude": 139.59471
-        },
-        {
-          "name": "神明社入口",
-          "latitude": 35.499635,
-          "longitude": 139.598551
-        },
-        {
-          "name": "熊の堂",
-          "latitude": 35.498504,
-          "longitude": 139.600991
-        },
-        {
-          "name": "菅田町入口",
-          "latitude": 35.496997,
-          "longitude": 139.602738
-        },
-        {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495047,
-          "longitude": 139.605101
-        },
-        {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.607472
-        },
-        {
-          "name": "下耕地",
-          "latitude": 35.491198,
-          "longitude": 139.60729
-        },
-        {
-          "name": "片倉町駅前",
-          "latitude": 35.490219,
-          "longitude": 139.606881
-        }
-      ]
-    },
-    {
-      "courseId": "0001600237",
-      "route": "36系統",
-      "destination": "西菅田団地経由 緑車庫前行",
-      "direction": "up",
-      "stopCount": 40,
-      "stops": [
-        {
-          "name": "横浜駅西口",
-          "latitude": 35.466408,
-          "longitude": 139.621193
-        },
-        {
-          "name": "鶴屋町２丁目",
-          "latitude": 35.469374,
-          "longitude": 139.622049
-        },
-        {
-          "name": "青木橋",
-          "latitude": 35.47168,
-          "longitude": 139.626867
-        },
-        {
-          "name": "反町",
-          "latitude": 35.473114,
-          "longitude": 139.628182
-        },
-        {
-          "name": "二ツ谷町",
-          "latitude": 35.474799,
-          "longitude": 139.629745
-        },
-        {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478885,
-          "longitude": 139.632546
-        },
-        {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.480782,
-          "longitude": 139.631209
-        },
-        {
-          "name": "東白楽",
-          "latitude": 35.483607,
-          "longitude": 139.628674
-        },
-        {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484629,
+          "name": "雪見橋",
+          "latitude": 35.454465,
           "longitude": 139.627672
         },
         {
-          "name": "六角橋",
-          "latitude": 35.485953,
-          "longitude": 139.626387
+          "name": "紅葉坂",
+          "latitude": 35.45207,
+          "longitude": 139.62957
         },
         {
-          "name": "神奈川大学入口",
-          "latitude": 35.486952,
-          "longitude": 139.622669
+          "name": "桜木町駅前",
+          "latitude": 35.451952,
+          "longitude": 139.631403
         },
         {
-          "name": "六角橋西町",
-          "latitude": 35.486734,
-          "longitude": 139.619272
+          "name": "横浜市役所前",
+          "latitude": 35.449929,
+          "longitude": 139.634871
         },
         {
-          "name": "神大寺",
-          "latitude": 35.486797,
-          "longitude": 139.615395
+          "name": "本町４丁目",
+          "latitude": 35.448795,
+          "longitude": 139.639145
         },
         {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.48747,
-          "longitude": 139.611369
+          "name": "本町１丁目",
+          "latitude": 35.4478,
+          "longitude": 139.641049
         },
         {
-          "name": "日枝橋",
-          "latitude": 35.487676,
-          "longitude": 139.610512
+          "name": "日本大通り駅県庁前",
+          "latitude": 35.446667,
+          "longitude": 139.643053
         },
         {
-          "name": "片倉町",
-          "latitude": 35.489783,
-          "longitude": 139.607807
+          "name": "芸術劇場・ＮＨＫ前",
+          "latitude": 35.445564,
+          "longitude": 139.645079
         },
         {
-          "name": "片倉町駅前",
-          "latitude": 35.490328,
-          "longitude": 139.607155
+          "name": "中華街入口",
+          "latitude": 35.44395,
+          "longitude": 139.648479
         },
         {
-          "name": "下耕地",
-          "latitude": 35.492097,
-          "longitude": 139.607226
+          "name": "山下町",
+          "latitude": 35.44316,
+          "longitude": 139.64957
         },
         {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.60729
+          "name": "山下ふ頭入口",
+          "latitude": 35.442615,
+          "longitude": 139.651733
         },
         {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495003,
-          "longitude": 139.604956
+          "name": "山下橋",
+          "latitude": 35.442779,
+          "longitude": 139.654204
         },
         {
-          "name": "菅田町入口",
-          "latitude": 35.496197,
-          "longitude": 139.60293
+          "name": "貯木場前",
+          "latitude": 35.439518,
+          "longitude": 139.658151
         },
         {
-          "name": "熊の堂",
-          "latitude": 35.499149,
-          "longitude": 139.59991
+          "name": "見晴橋",
+          "latitude": 35.438353,
+          "longitude": 139.659567
         },
         {
-          "name": "神明社入口",
-          "latitude": 35.499727,
-          "longitude": 139.597671
+          "name": "みなと赤十字病院入口",
+          "latitude": 35.436586,
+          "longitude": 139.661685
         },
         {
-          "name": "猿渡",
-          "latitude": 35.499715,
-          "longitude": 139.595145
+          "name": "小港橋",
+          "latitude": 35.433684,
+          "longitude": 139.663573
         },
         {
-          "name": "長導寺前",
-          "latitude": 35.500514,
-          "longitude": 139.591264
+          "name": "小港",
+          "latitude": 35.429737,
+          "longitude": 139.664035
         },
         {
-          "name": "中村",
-          "latitude": 35.500517,
-          "longitude": 139.587267
+          "name": "本牧宮原",
+          "latitude": 35.427377,
+          "longitude": 139.665871
         },
         {
-          "name": "道路碑前",
-          "latitude": 35.500866,
-          "longitude": 139.584865
+          "name": "和田山口",
+          "latitude": 35.425475,
+          "longitude": 139.666212
         },
         {
-          "name": "小川橋",
-          "latitude": 35.500566,
-          "longitude": 139.582729
+          "name": "本牧原",
+          "latitude": 35.423147,
+          "longitude": 139.666021
         },
         {
-          "name": "ひまわり団地前",
-          "latitude": 35.501931,
-          "longitude": 139.579215
+          "name": "本牧",
+          "latitude": 35.422378,
+          "longitude": 139.665168
         },
         {
-          "name": "西菅田団地入口",
-          "latitude": 35.500061,
-          "longitude": 139.576223
+          "name": "桜道",
+          "latitude": 35.42026,
+          "longitude": 139.664002
         },
         {
-          "name": "西菅田団地",
-          "latitude": 35.498008,
-          "longitude": 139.574229
+          "name": "三溪園入口",
+          "latitude": 35.419369,
+          "longitude": 139.664624
         },
         {
-          "name": "西菅田団地入口",
-          "latitude": 35.500523,
-          "longitude": 139.576491
+          "name": "本牧大里町",
+          "latitude": 35.419158,
+          "longitude": 139.666228
         },
         {
-          "name": "菅田町",
-          "latitude": 35.503098,
-          "longitude": 139.574346
+          "name": "本牧元町",
+          "latitude": 35.418949,
+          "longitude": 139.669242
         },
         {
-          "name": "原通",
-          "latitude": 35.503684,
-          "longitude": 139.570648
+          "name": "横浜本牧駅",
+          "latitude": 35.418348,
+          "longitude": 139.670599
         },
         {
-          "name": "南通（緑区）",
-          "latitude": 35.50461,
-          "longitude": 139.56802
+          "name": "本牧市民公園前",
+          "latitude": 35.414083,
+          "longitude": 139.665782
         },
         {
-          "name": "東通",
-          "latitude": 35.507948,
-          "longitude": 139.568194
-        },
-        {
-          "name": "鴨居駅前",
-          "latitude": 35.510623,
-          "longitude": 139.567178
-        },
-        {
-          "name": "鴨居橋",
-          "latitude": 35.5094,
-          "longitude": 139.563082
-        },
-        {
-          "name": "白山一丁目",
-          "latitude": 35.508293,
-          "longitude": 139.559876
-        },
-        {
-          "name": "緑車庫前",
-          "latitude": 35.506643,
-          "longitude": 139.558419
+          "name": "本牧車庫前",
+          "latitude": 35.415644,
+          "longitude": 139.666925
         }
       ]
     },
     {
-      "courseId": "0001600626",
-      "route": "36系統",
-      "destination": "西菅田団地経由 緑車庫前行",
-      "direction": "up",
-      "stopCount": 35,
+      "courseId": "0001600980",
+      "route": "8系統",
+      "destination": "本牧車庫前行",
+      "direction": "honmoku",
+      "stopCount": 30,
       "stops": [
         {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478885,
-          "longitude": 139.632546
+          "name": "横浜駅前",
+          "latitude": 35.465246,
+          "longitude": 139.624825
         },
         {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.480782,
-          "longitude": 139.631209
+          "name": "高島町",
+          "latitude": 35.458492,
+          "longitude": 139.624495
         },
         {
-          "name": "東白楽",
-          "latitude": 35.483607,
-          "longitude": 139.628674
+          "name": "花咲橋",
+          "latitude": 35.455539,
+          "longitude": 139.626801
         },
         {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484629,
+          "name": "雪見橋",
+          "latitude": 35.454465,
           "longitude": 139.627672
         },
         {
-          "name": "六角橋",
-          "latitude": 35.485953,
-          "longitude": 139.626387
+          "name": "紅葉坂",
+          "latitude": 35.45207,
+          "longitude": 139.62957
         },
         {
-          "name": "神奈川大学入口",
-          "latitude": 35.486952,
-          "longitude": 139.622669
+          "name": "桜木町駅前",
+          "latitude": 35.451952,
+          "longitude": 139.631403
         },
         {
-          "name": "六角橋西町",
-          "latitude": 35.486734,
-          "longitude": 139.619272
+          "name": "横浜市役所前",
+          "latitude": 35.449929,
+          "longitude": 139.634871
         },
         {
-          "name": "神大寺",
-          "latitude": 35.486797,
-          "longitude": 139.615395
+          "name": "本町４丁目",
+          "latitude": 35.448795,
+          "longitude": 139.639145
         },
         {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.48747,
-          "longitude": 139.611369
+          "name": "本町１丁目",
+          "latitude": 35.4478,
+          "longitude": 139.641049
         },
         {
-          "name": "日枝橋",
-          "latitude": 35.487676,
-          "longitude": 139.610512
+          "name": "日本大通り駅県庁前",
+          "latitude": 35.446667,
+          "longitude": 139.643053
         },
         {
-          "name": "片倉町",
-          "latitude": 35.489783,
-          "longitude": 139.607807
+          "name": "芸術劇場・ＮＨＫ前",
+          "latitude": 35.445564,
+          "longitude": 139.645079
         },
         {
-          "name": "片倉町駅前",
-          "latitude": 35.490328,
-          "longitude": 139.607155
+          "name": "中華街入口",
+          "latitude": 35.44395,
+          "longitude": 139.648479
         },
         {
-          "name": "下耕地",
-          "latitude": 35.492097,
-          "longitude": 139.607226
+          "name": "山下町",
+          "latitude": 35.44316,
+          "longitude": 139.64957
         },
         {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.60729
+          "name": "山下ふ頭入口",
+          "latitude": 35.442615,
+          "longitude": 139.651733
         },
         {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495003,
-          "longitude": 139.604956
+          "name": "山下橋",
+          "latitude": 35.442779,
+          "longitude": 139.654204
         },
         {
-          "name": "菅田町入口",
-          "latitude": 35.496197,
-          "longitude": 139.60293
+          "name": "貯木場前",
+          "latitude": 35.439518,
+          "longitude": 139.658151
         },
         {
-          "name": "熊の堂",
-          "latitude": 35.499149,
-          "longitude": 139.59991
+          "name": "見晴橋",
+          "latitude": 35.438353,
+          "longitude": 139.659567
         },
         {
-          "name": "神明社入口",
-          "latitude": 35.499727,
-          "longitude": 139.597671
+          "name": "みなと赤十字病院入口",
+          "latitude": 35.436586,
+          "longitude": 139.661685
         },
         {
-          "name": "猿渡",
-          "latitude": 35.499715,
-          "longitude": 139.595145
+          "name": "小港橋",
+          "latitude": 35.433684,
+          "longitude": 139.663573
         },
         {
-          "name": "長導寺前",
-          "latitude": 35.500514,
-          "longitude": 139.591264
+          "name": "小港",
+          "latitude": 35.429737,
+          "longitude": 139.664035
         },
         {
-          "name": "中村",
-          "latitude": 35.500517,
-          "longitude": 139.587267
+          "name": "本牧宮原",
+          "latitude": 35.427377,
+          "longitude": 139.665871
         },
         {
-          "name": "道路碑前",
-          "latitude": 35.500866,
-          "longitude": 139.584865
+          "name": "和田山口",
+          "latitude": 35.425475,
+          "longitude": 139.666212
         },
         {
-          "name": "小川橋",
-          "latitude": 35.500566,
-          "longitude": 139.582729
+          "name": "本牧原",
+          "latitude": 35.423147,
+          "longitude": 139.666021
         },
         {
-          "name": "ひまわり団地前",
-          "latitude": 35.501931,
-          "longitude": 139.579215
+          "name": "本牧",
+          "latitude": 35.422378,
+          "longitude": 139.665168
         },
         {
-          "name": "西菅田団地入口",
-          "latitude": 35.500061,
-          "longitude": 139.576223
+          "name": "桜道",
+          "latitude": 35.42026,
+          "longitude": 139.664002
         },
         {
-          "name": "西菅田団地",
-          "latitude": 35.498008,
-          "longitude": 139.574229
+          "name": "三溪園入口",
+          "latitude": 35.419369,
+          "longitude": 139.664624
         },
         {
-          "name": "西菅田団地入口",
-          "latitude": 35.500523,
-          "longitude": 139.576491
+          "name": "本牧大里町",
+          "latitude": 35.419158,
+          "longitude": 139.666228
         },
         {
-          "name": "菅田町",
-          "latitude": 35.503098,
-          "longitude": 139.574346
+          "name": "本牧元町",
+          "latitude": 35.418949,
+          "longitude": 139.669242
         },
         {
-          "name": "原通",
-          "latitude": 35.503684,
-          "longitude": 139.570648
+          "name": "横浜本牧駅",
+          "latitude": 35.418348,
+          "longitude": 139.670599
         },
         {
-          "name": "南通（緑区）",
-          "latitude": 35.50461,
-          "longitude": 139.56802
-        },
-        {
-          "name": "東通",
-          "latitude": 35.507948,
-          "longitude": 139.568194
-        },
-        {
-          "name": "鴨居駅前",
-          "latitude": 35.510623,
-          "longitude": 139.567178
-        },
-        {
-          "name": "鴨居橋",
-          "latitude": 35.5094,
-          "longitude": 139.563082
-        },
-        {
-          "name": "白山一丁目",
-          "latitude": 35.508293,
-          "longitude": 139.559876
-        },
-        {
-          "name": "緑車庫前",
-          "latitude": 35.506643,
-          "longitude": 139.558419
+          "name": "本牧車庫前",
+          "latitude": 35.416146,
+          "longitude": 139.667528
         }
       ]
     },
     {
-      "courseId": "0001600557",
-      "route": "36系統",
-      "destination": "菅田町経由 緑車庫前行",
-      "direction": "up",
-      "stopCount": 37,
+      "courseId": "0001601028",
+      "route": "8系統",
+      "destination": "本牧車庫前行",
+      "direction": "honmoku",
+      "stopCount": 25,
       "stops": [
         {
-          "name": "横浜駅西口",
-          "latitude": 35.466408,
-          "longitude": 139.621193
+          "name": "桜木町駅前",
+          "latitude": 35.451952,
+          "longitude": 139.631403
         },
         {
-          "name": "鶴屋町２丁目",
-          "latitude": 35.469374,
-          "longitude": 139.622049
+          "name": "横浜市役所前",
+          "latitude": 35.449929,
+          "longitude": 139.634871
         },
         {
-          "name": "青木橋",
-          "latitude": 35.47168,
-          "longitude": 139.626867
+          "name": "本町４丁目",
+          "latitude": 35.448795,
+          "longitude": 139.639145
         },
         {
-          "name": "反町",
-          "latitude": 35.473114,
-          "longitude": 139.628182
+          "name": "本町１丁目",
+          "latitude": 35.4478,
+          "longitude": 139.641049
         },
         {
-          "name": "二ツ谷町",
-          "latitude": 35.474799,
-          "longitude": 139.629745
+          "name": "日本大通り駅県庁前",
+          "latitude": 35.446667,
+          "longitude": 139.643053
         },
         {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478885,
-          "longitude": 139.632546
+          "name": "芸術劇場・ＮＨＫ前",
+          "latitude": 35.445564,
+          "longitude": 139.645079
         },
         {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.480782,
-          "longitude": 139.631209
+          "name": "中華街入口",
+          "latitude": 35.44395,
+          "longitude": 139.648479
         },
         {
-          "name": "東白楽",
-          "latitude": 35.483607,
-          "longitude": 139.628674
+          "name": "山下町",
+          "latitude": 35.44316,
+          "longitude": 139.64957
         },
         {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484629,
-          "longitude": 139.627672
+          "name": "山下ふ頭入口",
+          "latitude": 35.442615,
+          "longitude": 139.651733
         },
         {
-          "name": "六角橋",
-          "latitude": 35.485953,
-          "longitude": 139.626387
+          "name": "山下橋",
+          "latitude": 35.442779,
+          "longitude": 139.654204
         },
         {
-          "name": "神奈川大学入口",
-          "latitude": 35.486952,
-          "longitude": 139.622669
+          "name": "貯木場前",
+          "latitude": 35.439518,
+          "longitude": 139.658151
         },
         {
-          "name": "六角橋西町",
-          "latitude": 35.486734,
-          "longitude": 139.619272
+          "name": "見晴橋",
+          "latitude": 35.438353,
+          "longitude": 139.659567
         },
         {
-          "name": "神大寺",
-          "latitude": 35.486797,
-          "longitude": 139.615395
+          "name": "みなと赤十字病院入口",
+          "latitude": 35.436586,
+          "longitude": 139.661685
         },
         {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.48747,
-          "longitude": 139.611369
+          "name": "小港橋",
+          "latitude": 35.433684,
+          "longitude": 139.663573
         },
         {
-          "name": "日枝橋",
-          "latitude": 35.487676,
-          "longitude": 139.610512
+          "name": "小港",
+          "latitude": 35.429737,
+          "longitude": 139.664035
         },
         {
-          "name": "片倉町",
-          "latitude": 35.489783,
-          "longitude": 139.607807
+          "name": "本牧宮原",
+          "latitude": 35.427377,
+          "longitude": 139.665871
         },
         {
-          "name": "片倉町駅前",
-          "latitude": 35.490328,
-          "longitude": 139.607155
+          "name": "和田山口",
+          "latitude": 35.425475,
+          "longitude": 139.666212
         },
         {
-          "name": "下耕地",
-          "latitude": 35.492097,
-          "longitude": 139.607226
+          "name": "本牧原",
+          "latitude": 35.423147,
+          "longitude": 139.666021
         },
         {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.60729
+          "name": "本牧",
+          "latitude": 35.422378,
+          "longitude": 139.665168
         },
         {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495003,
-          "longitude": 139.604956
+          "name": "桜道",
+          "latitude": 35.42026,
+          "longitude": 139.664002
         },
         {
-          "name": "菅田町入口",
-          "latitude": 35.496197,
-          "longitude": 139.60293
+          "name": "三溪園入口",
+          "latitude": 35.419369,
+          "longitude": 139.664624
         },
         {
-          "name": "熊の堂",
-          "latitude": 35.499149,
-          "longitude": 139.59991
+          "name": "本牧大里町",
+          "latitude": 35.419158,
+          "longitude": 139.666228
         },
         {
-          "name": "神明社入口",
-          "latitude": 35.499727,
-          "longitude": 139.597671
+          "name": "本牧元町",
+          "latitude": 35.418949,
+          "longitude": 139.669242
         },
         {
-          "name": "猿渡",
-          "latitude": 35.499715,
-          "longitude": 139.595145
+          "name": "横浜本牧駅",
+          "latitude": 35.418348,
+          "longitude": 139.670599
         },
         {
-          "name": "長導寺前",
-          "latitude": 35.500514,
-          "longitude": 139.591264
-        },
-        {
-          "name": "中村",
-          "latitude": 35.500517,
-          "longitude": 139.587267
-        },
-        {
-          "name": "道路碑前",
-          "latitude": 35.500866,
-          "longitude": 139.584865
-        },
-        {
-          "name": "小川橋",
-          "latitude": 35.500566,
-          "longitude": 139.582729
-        },
-        {
-          "name": "ひまわり団地前",
-          "latitude": 35.501931,
-          "longitude": 139.579215
-        },
-        {
-          "name": "菅田町",
-          "latitude": 35.503098,
-          "longitude": 139.574346
-        },
-        {
-          "name": "原通",
-          "latitude": 35.503684,
-          "longitude": 139.570648
-        },
-        {
-          "name": "南通（緑区）",
-          "latitude": 35.50461,
-          "longitude": 139.56802
-        },
-        {
-          "name": "東通",
-          "latitude": 35.507948,
-          "longitude": 139.568194
-        },
-        {
-          "name": "鴨居駅前",
-          "latitude": 35.510623,
-          "longitude": 139.567178
-        },
-        {
-          "name": "鴨居橋",
-          "latitude": 35.5094,
-          "longitude": 139.563082
-        },
-        {
-          "name": "白山一丁目",
-          "latitude": 35.508293,
-          "longitude": 139.559876
-        },
-        {
-          "name": "緑車庫前",
-          "latitude": 35.506643,
-          "longitude": 139.558419
+          "name": "本牧車庫前",
+          "latitude": 35.416146,
+          "longitude": 139.667528
         }
       ]
     },
     {
-      "courseId": "0001600486",
-      "route": "36系統",
-      "destination": "菅田町経由 緑車庫前行",
+      "courseId": "0001600989",
+      "route": "8系統",
+      "destination": "本牧市民公園経由 横浜駅前行",
       "direction": "up",
       "stopCount": 32,
       "stops": [
         {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478885,
-          "longitude": 139.632546
+          "name": "本牧車庫前",
+          "latitude": 35.415446,
+          "longitude": 139.666875
         },
         {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.480782,
-          "longitude": 139.631209
+          "name": "本牧市民公園前",
+          "latitude": 35.414056,
+          "longitude": 139.665924
         },
         {
-          "name": "東白楽",
-          "latitude": 35.483607,
-          "longitude": 139.628674
+          "name": "横浜本牧駅",
+          "latitude": 35.418439,
+          "longitude": 139.670181
         },
         {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484629,
-          "longitude": 139.627672
+          "name": "本牧元町",
+          "latitude": 35.418876,
+          "longitude": 139.6691
         },
         {
-          "name": "六角橋",
-          "latitude": 35.485953,
-          "longitude": 139.626387
+          "name": "本牧大里町",
+          "latitude": 35.419009,
+          "longitude": 139.667786
         },
         {
-          "name": "神奈川大学入口",
-          "latitude": 35.486952,
-          "longitude": 139.622669
+          "name": "多聞院前",
+          "latitude": 35.420877,
+          "longitude": 139.666875
         },
         {
-          "name": "六角橋西町",
-          "latitude": 35.486734,
-          "longitude": 139.619272
+          "name": "吾妻神社前",
+          "latitude": 35.421938,
+          "longitude": 139.667247
         },
         {
-          "name": "神大寺",
-          "latitude": 35.486797,
-          "longitude": 139.615395
+          "name": "本牧原南公園前",
+          "latitude": 35.423227,
+          "longitude": 139.667459
         },
         {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.48747,
-          "longitude": 139.611369
+          "name": "本牧原",
+          "latitude": 35.423899,
+          "longitude": 139.665913
         },
         {
-          "name": "日枝橋",
-          "latitude": 35.487676,
-          "longitude": 139.610512
+          "name": "和田山口",
+          "latitude": 35.425349,
+          "longitude": 139.665799
         },
         {
-          "name": "片倉町",
-          "latitude": 35.489783,
-          "longitude": 139.607807
+          "name": "本牧宮原",
+          "latitude": 35.427872,
+          "longitude": 139.665271
         },
         {
-          "name": "片倉町駅前",
-          "latitude": 35.490328,
-          "longitude": 139.607155
+          "name": "小港",
+          "latitude": 35.429755,
+          "longitude": 139.66377
         },
         {
-          "name": "下耕地",
-          "latitude": 35.492097,
-          "longitude": 139.607226
+          "name": "小港橋",
+          "latitude": 35.433326,
+          "longitude": 139.663533
         },
         {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.60729
+          "name": "みなと赤十字病院入口",
+          "latitude": 35.436528,
+          "longitude": 139.661438
         },
         {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495003,
-          "longitude": 139.604956
+          "name": "見晴橋",
+          "latitude": 35.437853,
+          "longitude": 139.659862
         },
         {
-          "name": "菅田町入口",
-          "latitude": 35.496197,
-          "longitude": 139.60293
+          "name": "貯木場前",
+          "latitude": 35.439925,
+          "longitude": 139.657378
         },
         {
-          "name": "熊の堂",
-          "latitude": 35.499149,
-          "longitude": 139.59991
+          "name": "山下橋",
+          "latitude": 35.441969,
+          "longitude": 139.654912
         },
         {
-          "name": "神明社入口",
-          "latitude": 35.499727,
-          "longitude": 139.597671
+          "name": "山下ふ頭入口",
+          "latitude": 35.442911,
+          "longitude": 139.652892
         },
         {
-          "name": "猿渡",
-          "latitude": 35.499715,
-          "longitude": 139.595145
+          "name": "山下町",
+          "latitude": 35.442776,
+          "longitude": 139.649796
         },
         {
-          "name": "長導寺前",
-          "latitude": 35.500514,
-          "longitude": 139.591264
+          "name": "中華街入口",
+          "latitude": 35.444202,
+          "longitude": 139.647717
         },
         {
-          "name": "中村",
-          "latitude": 35.500517,
-          "longitude": 139.587267
+          "name": "芸術劇場・ＮＨＫ前",
+          "latitude": 35.445023,
+          "longitude": 139.645788
         },
         {
-          "name": "道路碑前",
-          "latitude": 35.500866,
-          "longitude": 139.584865
+          "name": "日本大通り駅県庁前",
+          "latitude": 35.446409,
+          "longitude": 139.643075
         },
         {
-          "name": "小川橋",
-          "latitude": 35.500566,
-          "longitude": 139.582729
+          "name": "本町１丁目",
+          "latitude": 35.448072,
+          "longitude": 139.640095
         },
         {
-          "name": "ひまわり団地前",
-          "latitude": 35.501931,
-          "longitude": 139.579215
+          "name": "本町４丁目",
+          "latitude": 35.448744,
+          "longitude": 139.638801
         },
         {
-          "name": "菅田町",
-          "latitude": 35.503098,
-          "longitude": 139.574346
+          "name": "横浜市役所前",
+          "latitude": 35.449657,
+          "longitude": 139.635114
         },
         {
-          "name": "原通",
-          "latitude": 35.503684,
-          "longitude": 139.570648
+          "name": "桜木町駅前",
+          "latitude": 35.449025,
+          "longitude": 139.631719
         },
         {
-          "name": "南通（緑区）",
-          "latitude": 35.50461,
-          "longitude": 139.56802
+          "name": "紅葉坂",
+          "latitude": 35.452143,
+          "longitude": 139.629277
         },
         {
-          "name": "東通",
-          "latitude": 35.507948,
-          "longitude": 139.568194
+          "name": "雪見橋",
+          "latitude": 35.454375,
+          "longitude": 139.627461
         },
         {
-          "name": "鴨居駅前",
-          "latitude": 35.510623,
-          "longitude": 139.567178
+          "name": "花咲橋",
+          "latitude": 35.457577,
+          "longitude": 139.624927
         },
         {
-          "name": "鴨居橋",
-          "latitude": 35.5094,
-          "longitude": 139.563082
+          "name": "高島町",
+          "latitude": 35.461223,
+          "longitude": 139.623615
         },
         {
-          "name": "白山一丁目",
-          "latitude": 35.508293,
-          "longitude": 139.559876
+          "name": "横浜駅改札口前",
+          "latitude": 35.465512,
+          "longitude": 139.623455
         },
         {
-          "name": "緑車庫前",
-          "latitude": 35.506643,
-          "longitude": 139.558419
+          "name": "横浜駅前",
+          "latitude": 35.465257,
+          "longitude": 139.625359
         }
       ]
     },
     {
-      "courseId": "0001600441",
-      "route": "36系統",
-      "destination": "菅田町経由 緑車庫前行",
+      "courseId": "0001600989",
+      "route": "8系統",
+      "destination": "横浜駅前行",
       "direction": "up",
-      "stopCount": 21,
+      "stopCount": 32,
       "stops": [
         {
-          "name": "片倉町駅前",
-          "latitude": 35.490328,
-          "longitude": 139.607155
+          "name": "本牧車庫前",
+          "latitude": 35.415446,
+          "longitude": 139.666875
         },
         {
-          "name": "下耕地",
-          "latitude": 35.492097,
-          "longitude": 139.607226
+          "name": "本牧市民公園前",
+          "latitude": 35.414056,
+          "longitude": 139.665924
         },
         {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.60729
+          "name": "横浜本牧駅",
+          "latitude": 35.418439,
+          "longitude": 139.670181
         },
         {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495003,
-          "longitude": 139.604956
+          "name": "本牧元町",
+          "latitude": 35.418876,
+          "longitude": 139.6691
         },
         {
-          "name": "菅田町入口",
-          "latitude": 35.496197,
-          "longitude": 139.60293
+          "name": "本牧大里町",
+          "latitude": 35.419009,
+          "longitude": 139.667786
         },
         {
-          "name": "熊の堂",
-          "latitude": 35.499149,
-          "longitude": 139.59991
+          "name": "多聞院前",
+          "latitude": 35.420877,
+          "longitude": 139.666875
         },
         {
-          "name": "神明社入口",
-          "latitude": 35.499727,
-          "longitude": 139.597671
+          "name": "吾妻神社前",
+          "latitude": 35.421938,
+          "longitude": 139.667247
         },
         {
-          "name": "猿渡",
-          "latitude": 35.499715,
-          "longitude": 139.595145
+          "name": "本牧原南公園前",
+          "latitude": 35.423227,
+          "longitude": 139.667459
         },
         {
-          "name": "長導寺前",
-          "latitude": 35.500514,
-          "longitude": 139.591264
+          "name": "本牧原",
+          "latitude": 35.423899,
+          "longitude": 139.665913
         },
         {
-          "name": "中村",
-          "latitude": 35.500517,
-          "longitude": 139.587267
+          "name": "和田山口",
+          "latitude": 35.425349,
+          "longitude": 139.665799
         },
         {
-          "name": "道路碑前",
-          "latitude": 35.500866,
-          "longitude": 139.584865
+          "name": "本牧宮原",
+          "latitude": 35.427872,
+          "longitude": 139.665271
         },
         {
-          "name": "小川橋",
-          "latitude": 35.500566,
-          "longitude": 139.582729
+          "name": "小港",
+          "latitude": 35.429755,
+          "longitude": 139.66377
         },
         {
-          "name": "ひまわり団地前",
-          "latitude": 35.501931,
-          "longitude": 139.579215
+          "name": "小港橋",
+          "latitude": 35.433326,
+          "longitude": 139.663533
         },
         {
-          "name": "菅田町",
-          "latitude": 35.503098,
-          "longitude": 139.574346
+          "name": "みなと赤十字病院入口",
+          "latitude": 35.436528,
+          "longitude": 139.661438
         },
         {
-          "name": "原通",
-          "latitude": 35.503684,
-          "longitude": 139.570648
+          "name": "見晴橋",
+          "latitude": 35.437853,
+          "longitude": 139.659862
         },
         {
-          "name": "南通（緑区）",
-          "latitude": 35.50461,
-          "longitude": 139.56802
+          "name": "貯木場前",
+          "latitude": 35.439925,
+          "longitude": 139.657378
         },
         {
-          "name": "東通",
-          "latitude": 35.507948,
-          "longitude": 139.568194
+          "name": "山下橋",
+          "latitude": 35.441969,
+          "longitude": 139.654912
         },
         {
-          "name": "鴨居駅前",
-          "latitude": 35.510623,
-          "longitude": 139.567178
+          "name": "山下ふ頭入口",
+          "latitude": 35.442911,
+          "longitude": 139.652892
         },
         {
-          "name": "鴨居橋",
-          "latitude": 35.5094,
-          "longitude": 139.563082
+          "name": "山下町",
+          "latitude": 35.442776,
+          "longitude": 139.649796
         },
         {
-          "name": "白山一丁目",
-          "latitude": 35.508293,
-          "longitude": 139.559876
+          "name": "中華街入口",
+          "latitude": 35.444202,
+          "longitude": 139.647717
         },
         {
-          "name": "緑車庫前",
-          "latitude": 35.506643,
-          "longitude": 139.558419
+          "name": "芸術劇場・ＮＨＫ前",
+          "latitude": 35.445023,
+          "longitude": 139.645788
+        },
+        {
+          "name": "日本大通り駅県庁前",
+          "latitude": 35.446409,
+          "longitude": 139.643075
+        },
+        {
+          "name": "本町１丁目",
+          "latitude": 35.448072,
+          "longitude": 139.640095
+        },
+        {
+          "name": "本町４丁目",
+          "latitude": 35.448744,
+          "longitude": 139.638801
+        },
+        {
+          "name": "横浜市役所前",
+          "latitude": 35.449657,
+          "longitude": 139.635114
+        },
+        {
+          "name": "桜木町駅前",
+          "latitude": 35.449025,
+          "longitude": 139.631719
+        },
+        {
+          "name": "紅葉坂",
+          "latitude": 35.452143,
+          "longitude": 139.629277
+        },
+        {
+          "name": "雪見橋",
+          "latitude": 35.454375,
+          "longitude": 139.627461
+        },
+        {
+          "name": "花咲橋",
+          "latitude": 35.457577,
+          "longitude": 139.624927
+        },
+        {
+          "name": "高島町",
+          "latitude": 35.461223,
+          "longitude": 139.623615
+        },
+        {
+          "name": "横浜駅改札口前",
+          "latitude": 35.465512,
+          "longitude": 139.623455
+        },
+        {
+          "name": "横浜駅前",
+          "latitude": 35.465257,
+          "longitude": 139.625359
         }
       ]
     },
     {
-      "courseId": "0001601358",
-      "route": "36系統",
-      "destination": "六角橋経由 西菅田団地行",
+      "courseId": "0001600987",
+      "route": "8系統",
+      "destination": "三渓園入口経由 横浜駅前行",
       "direction": "up",
       "stopCount": 31,
       "stops": [
         {
-          "name": "横浜駅西口",
-          "latitude": 35.466408,
-          "longitude": 139.621193
+          "name": "本牧",
+          "latitude": 35.422378,
+          "longitude": 139.665168
         },
         {
-          "name": "鶴屋町２丁目",
-          "latitude": 35.469374,
-          "longitude": 139.622049
+          "name": "桜道",
+          "latitude": 35.42026,
+          "longitude": 139.664002
         },
         {
-          "name": "青木橋",
-          "latitude": 35.47168,
-          "longitude": 139.626867
+          "name": "三溪園入口",
+          "latitude": 35.419441,
+          "longitude": 139.664406
         },
         {
-          "name": "反町",
-          "latitude": 35.473114,
-          "longitude": 139.628182
+          "name": "本牧大里町",
+          "latitude": 35.419158,
+          "longitude": 139.666228
         },
         {
-          "name": "二ツ谷町",
-          "latitude": 35.474799,
-          "longitude": 139.629745
+          "name": "多聞院前",
+          "latitude": 35.420877,
+          "longitude": 139.666875
         },
         {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478885,
-          "longitude": 139.632546
+          "name": "吾妻神社前",
+          "latitude": 35.421938,
+          "longitude": 139.667247
         },
         {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.480782,
-          "longitude": 139.631209
+          "name": "本牧原南公園前",
+          "latitude": 35.423227,
+          "longitude": 139.667459
         },
         {
-          "name": "東白楽",
-          "latitude": 35.483607,
-          "longitude": 139.628674
+          "name": "本牧原",
+          "latitude": 35.423899,
+          "longitude": 139.665913
         },
         {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484629,
-          "longitude": 139.627672
+          "name": "和田山口",
+          "latitude": 35.425349,
+          "longitude": 139.665799
         },
         {
-          "name": "六角橋",
-          "latitude": 35.485953,
-          "longitude": 139.626387
+          "name": "本牧宮原",
+          "latitude": 35.427872,
+          "longitude": 139.665271
         },
         {
-          "name": "神奈川大学入口",
-          "latitude": 35.486952,
-          "longitude": 139.622669
+          "name": "小港",
+          "latitude": 35.429755,
+          "longitude": 139.66377
         },
         {
-          "name": "六角橋西町",
-          "latitude": 35.486734,
-          "longitude": 139.619272
+          "name": "小港橋",
+          "latitude": 35.433326,
+          "longitude": 139.663533
         },
         {
-          "name": "神大寺",
-          "latitude": 35.486797,
-          "longitude": 139.615395
+          "name": "みなと赤十字病院入口",
+          "latitude": 35.436528,
+          "longitude": 139.661438
         },
         {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.48747,
-          "longitude": 139.611369
+          "name": "見晴橋",
+          "latitude": 35.437853,
+          "longitude": 139.659862
         },
         {
-          "name": "日枝橋",
-          "latitude": 35.487676,
-          "longitude": 139.610512
+          "name": "貯木場前",
+          "latitude": 35.439925,
+          "longitude": 139.657378
         },
         {
-          "name": "片倉町",
-          "latitude": 35.489783,
-          "longitude": 139.607807
+          "name": "山下橋",
+          "latitude": 35.441969,
+          "longitude": 139.654912
         },
         {
-          "name": "片倉町駅前",
-          "latitude": 35.490328,
-          "longitude": 139.607155
+          "name": "山下ふ頭入口",
+          "latitude": 35.442911,
+          "longitude": 139.652892
         },
         {
-          "name": "下耕地",
-          "latitude": 35.492097,
-          "longitude": 139.607226
+          "name": "山下町",
+          "latitude": 35.442776,
+          "longitude": 139.649796
         },
         {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.60729
+          "name": "中華街入口",
+          "latitude": 35.444202,
+          "longitude": 139.647717
         },
         {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495003,
-          "longitude": 139.604956
+          "name": "芸術劇場・ＮＨＫ前",
+          "latitude": 35.445023,
+          "longitude": 139.645788
         },
         {
-          "name": "菅田町入口",
-          "latitude": 35.496197,
-          "longitude": 139.60293
+          "name": "日本大通り駅県庁前",
+          "latitude": 35.446409,
+          "longitude": 139.643075
         },
         {
-          "name": "熊の堂",
-          "latitude": 35.499149,
-          "longitude": 139.59991
+          "name": "本町１丁目",
+          "latitude": 35.448072,
+          "longitude": 139.640095
         },
         {
-          "name": "神明社入口",
-          "latitude": 35.499727,
-          "longitude": 139.597671
+          "name": "本町４丁目",
+          "latitude": 35.448744,
+          "longitude": 139.638801
         },
         {
-          "name": "猿渡",
-          "latitude": 35.499715,
-          "longitude": 139.595145
+          "name": "横浜市役所前",
+          "latitude": 35.449657,
+          "longitude": 139.635114
         },
         {
-          "name": "長導寺前",
-          "latitude": 35.500514,
-          "longitude": 139.591264
+          "name": "桜木町駅前",
+          "latitude": 35.449025,
+          "longitude": 139.631719
         },
         {
-          "name": "中村",
-          "latitude": 35.500517,
-          "longitude": 139.587267
+          "name": "紅葉坂",
+          "latitude": 35.452143,
+          "longitude": 139.629277
         },
         {
-          "name": "道路碑前",
-          "latitude": 35.500866,
-          "longitude": 139.584865
+          "name": "雪見橋",
+          "latitude": 35.454375,
+          "longitude": 139.627461
         },
         {
-          "name": "小川橋",
-          "latitude": 35.500566,
-          "longitude": 139.582729
+          "name": "花咲橋",
+          "latitude": 35.457577,
+          "longitude": 139.624927
         },
         {
-          "name": "ひまわり団地前",
-          "latitude": 35.501931,
-          "longitude": 139.579215
+          "name": "高島町",
+          "latitude": 35.461223,
+          "longitude": 139.623615
         },
         {
-          "name": "西菅田団地入口",
-          "latitude": 35.500061,
-          "longitude": 139.576223
+          "name": "横浜駅改札口前",
+          "latitude": 35.465512,
+          "longitude": 139.623455
         },
         {
-          "name": "西菅田団地",
-          "latitude": 35.498008,
-          "longitude": 139.574229
-        }
-      ]
-    },
-    {
-      "courseId": "0001601357",
-      "route": "36系統",
-      "destination": "六角橋経由 西菅田団地行",
-      "direction": "up",
-      "stopCount": 26,
-      "stops": [
-        {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478885,
-          "longitude": 139.632546
-        },
-        {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.480782,
-          "longitude": 139.631209
-        },
-        {
-          "name": "東白楽",
-          "latitude": 35.483607,
-          "longitude": 139.628674
-        },
-        {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484629,
-          "longitude": 139.627672
-        },
-        {
-          "name": "六角橋",
-          "latitude": 35.485953,
-          "longitude": 139.626387
-        },
-        {
-          "name": "神奈川大学入口",
-          "latitude": 35.486952,
-          "longitude": 139.622669
-        },
-        {
-          "name": "六角橋西町",
-          "latitude": 35.486734,
-          "longitude": 139.619272
-        },
-        {
-          "name": "神大寺",
-          "latitude": 35.486797,
-          "longitude": 139.615395
-        },
-        {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.48747,
-          "longitude": 139.611369
-        },
-        {
-          "name": "日枝橋",
-          "latitude": 35.487676,
-          "longitude": 139.610512
-        },
-        {
-          "name": "片倉町",
-          "latitude": 35.489783,
-          "longitude": 139.607807
-        },
-        {
-          "name": "片倉町駅前",
-          "latitude": 35.490328,
-          "longitude": 139.607155
-        },
-        {
-          "name": "下耕地",
-          "latitude": 35.492097,
-          "longitude": 139.607226
-        },
-        {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.60729
-        },
-        {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495003,
-          "longitude": 139.604956
-        },
-        {
-          "name": "菅田町入口",
-          "latitude": 35.496197,
-          "longitude": 139.60293
-        },
-        {
-          "name": "熊の堂",
-          "latitude": 35.499149,
-          "longitude": 139.59991
-        },
-        {
-          "name": "神明社入口",
-          "latitude": 35.499727,
-          "longitude": 139.597671
-        },
-        {
-          "name": "猿渡",
-          "latitude": 35.499715,
-          "longitude": 139.595145
-        },
-        {
-          "name": "長導寺前",
-          "latitude": 35.500514,
-          "longitude": 139.591264
-        },
-        {
-          "name": "中村",
-          "latitude": 35.500517,
-          "longitude": 139.587267
-        },
-        {
-          "name": "道路碑前",
-          "latitude": 35.500866,
-          "longitude": 139.584865
-        },
-        {
-          "name": "小川橋",
-          "latitude": 35.500566,
-          "longitude": 139.582729
-        },
-        {
-          "name": "ひまわり団地前",
-          "latitude": 35.501931,
-          "longitude": 139.579215
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500061,
-          "longitude": 139.576223
-        },
-        {
-          "name": "西菅田団地",
-          "latitude": 35.498008,
-          "longitude": 139.574229
-        }
-      ]
-    },
-    {
-      "courseId": "0001600577",
-      "route": "82系統",
-      "destination": "六角橋経由 八反橋行",
-      "direction": "up",
-      "stopCount": 22,
-      "stops": [
-        {
-          "name": "横浜駅西口",
-          "latitude": 35.466408,
-          "longitude": 139.621193
-        },
-        {
-          "name": "鶴屋町２丁目",
-          "latitude": 35.469374,
-          "longitude": 139.622049
-        },
-        {
-          "name": "青木橋",
-          "latitude": 35.47168,
-          "longitude": 139.626867
-        },
-        {
-          "name": "反町",
-          "latitude": 35.473114,
-          "longitude": 139.628182
-        },
-        {
-          "name": "二ツ谷町",
-          "latitude": 35.474799,
-          "longitude": 139.629745
-        },
-        {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478885,
-          "longitude": 139.632546
-        },
-        {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.480782,
-          "longitude": 139.631209
-        },
-        {
-          "name": "東白楽",
-          "latitude": 35.483607,
-          "longitude": 139.628674
-        },
-        {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484629,
-          "longitude": 139.627672
-        },
-        {
-          "name": "六角橋",
-          "latitude": 35.485953,
-          "longitude": 139.626387
-        },
-        {
-          "name": "神奈川大学入口",
-          "latitude": 35.486952,
-          "longitude": 139.622669
-        },
-        {
-          "name": "六角橋西町",
-          "latitude": 35.486734,
-          "longitude": 139.619272
-        },
-        {
-          "name": "神大寺",
-          "latitude": 35.486797,
-          "longitude": 139.615395
-        },
-        {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.48747,
-          "longitude": 139.611369
-        },
-        {
-          "name": "日枝橋",
-          "latitude": 35.487676,
-          "longitude": 139.610512
-        },
-        {
-          "name": "片倉町",
-          "latitude": 35.489783,
-          "longitude": 139.607807
-        },
-        {
-          "name": "片倉町駅前",
-          "latitude": 35.490328,
-          "longitude": 139.607155
-        },
-        {
-          "name": "下耕地",
-          "latitude": 35.492097,
-          "longitude": 139.607226
-        },
-        {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.60729
-        },
-        {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495003,
-          "longitude": 139.604956
-        },
-        {
-          "name": "菅田町入口",
-          "latitude": 35.495144,
-          "longitude": 139.602713
-        },
-        {
-          "name": "八反橋",
-          "latitude": 35.493933,
-          "longitude": 139.601131
-        }
-      ]
-    },
-    {
-      "courseId": "0001600251",
-      "route": "82系統",
-      "destination": "六角橋経由 八反橋行",
-      "direction": "up",
-      "stopCount": 17,
-      "stops": [
-        {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478885,
-          "longitude": 139.632546
-        },
-        {
-          "name": "神奈川公会堂入口",
-          "latitude": 35.480782,
-          "longitude": 139.631209
-        },
-        {
-          "name": "東白楽",
-          "latitude": 35.483607,
-          "longitude": 139.628674
-        },
-        {
-          "name": "西神奈川２丁目",
-          "latitude": 35.484629,
-          "longitude": 139.627672
-        },
-        {
-          "name": "六角橋",
-          "latitude": 35.485953,
-          "longitude": 139.626387
-        },
-        {
-          "name": "神奈川大学入口",
-          "latitude": 35.486952,
-          "longitude": 139.622669
-        },
-        {
-          "name": "六角橋西町",
-          "latitude": 35.486734,
-          "longitude": 139.619272
-        },
-        {
-          "name": "神大寺",
-          "latitude": 35.486797,
-          "longitude": 139.615395
-        },
-        {
-          "name": "神奈川土木事務所前",
-          "latitude": 35.48747,
-          "longitude": 139.611369
-        },
-        {
-          "name": "日枝橋",
-          "latitude": 35.487676,
-          "longitude": 139.610512
-        },
-        {
-          "name": "片倉町",
-          "latitude": 35.489783,
-          "longitude": 139.607807
-        },
-        {
-          "name": "片倉町駅前",
-          "latitude": 35.490328,
-          "longitude": 139.607155
-        },
-        {
-          "name": "下耕地",
-          "latitude": 35.492097,
-          "longitude": 139.607226
-        },
-        {
-          "name": "片倉下町",
-          "latitude": 35.494395,
-          "longitude": 139.60729
-        },
-        {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495003,
-          "longitude": 139.604956
-        },
-        {
-          "name": "菅田町入口",
-          "latitude": 35.495144,
-          "longitude": 139.602713
-        },
-        {
-          "name": "八反橋",
-          "latitude": 35.493933,
-          "longitude": 139.601131
-        }
-      ]
-    },
-    {
-      "courseId": "0001601079",
-      "route": "12系統",
-      "destination": "緑車庫前経由 西菅田団地行",
-      "direction": "nishisugeta",
-      "stopCount": 17,
-      "stops": [
-        {
-          "name": "中山駅前",
-          "latitude": 35.514255,
-          "longitude": 139.53963
-        },
-        {
-          "name": "緑消防署前",
-          "latitude": 35.511729,
-          "longitude": 139.540134
-        },
-        {
-          "name": "中山町",
-          "latitude": 35.510926,
-          "longitude": 139.543182
-        },
-        {
-          "name": "中山小学校南",
-          "latitude": 35.510281,
-          "longitude": 139.54607
-        },
-        {
-          "name": "上山町",
-          "latitude": 35.509368,
-          "longitude": 139.549552
-        },
-        {
-          "name": "石神",
-          "latitude": 35.507996,
-          "longitude": 139.553102
-        },
-        {
-          "name": "白山ハイテクパーク",
-          "latitude": 35.507579,
-          "longitude": 139.555557
-        },
-        {
-          "name": "緑車庫前",
-          "latitude": 35.506643,
-          "longitude": 139.558419
-        },
-        {
-          "name": "白山一丁目",
-          "latitude": 35.508783,
-          "longitude": 139.560301
-        },
-        {
-          "name": "鴨居橋",
-          "latitude": 35.509494,
-          "longitude": 139.563101
-        },
-        {
-          "name": "鴨居駅前",
-          "latitude": 35.51032,
-          "longitude": 139.567434
-        },
-        {
-          "name": "東通",
-          "latitude": 35.507251,
-          "longitude": 139.568346
-        },
-        {
-          "name": "南通（緑区）",
-          "latitude": 35.504418,
-          "longitude": 139.568277
-        },
-        {
-          "name": "原通",
-          "latitude": 35.503728,
-          "longitude": 139.57098
-        },
-        {
-          "name": "菅田町",
-          "latitude": 35.503164,
-          "longitude": 139.574461
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500061,
-          "longitude": 139.576223
-        },
-        {
-          "name": "西菅田団地",
-          "latitude": 35.498008,
-          "longitude": 139.574229
-        }
-      ]
-    },
-    {
-      "courseId": "0001600429",
-      "route": "12系統",
-      "destination": "西菅田団地行",
-      "direction": "nishisugeta",
-      "stopCount": 10,
-      "stops": [
-        {
-          "name": "緑車庫前",
-          "latitude": 35.506643,
-          "longitude": 139.558419
-        },
-        {
-          "name": "白山一丁目",
-          "latitude": 35.508783,
-          "longitude": 139.560301
-        },
-        {
-          "name": "鴨居橋",
-          "latitude": 35.509494,
-          "longitude": 139.563101
-        },
-        {
-          "name": "鴨居駅前",
-          "latitude": 35.51032,
-          "longitude": 139.567434
-        },
-        {
-          "name": "東通",
-          "latitude": 35.507251,
-          "longitude": 139.568346
-        },
-        {
-          "name": "南通（緑区）",
-          "latitude": 35.504418,
-          "longitude": 139.568277
-        },
-        {
-          "name": "原通",
-          "latitude": 35.503728,
-          "longitude": 139.57098
-        },
-        {
-          "name": "菅田町",
-          "latitude": 35.503164,
-          "longitude": 139.574461
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500061,
-          "longitude": 139.576223
-        },
-        {
-          "name": "西菅田団地",
-          "latitude": 35.498008,
-          "longitude": 139.574229
-        }
-      ]
-    },
-    {
-      "courseId": "0001600290",
-      "route": "12系統",
-      "destination": "白山中央経由 西菅田団地行",
-      "direction": "nishisugeta",
-      "stopCount": 14,
-      "stops": [
-        {
-          "name": "白山高校",
-          "latitude": 35.49873,
-          "longitude": 139.549528
-        },
-        {
-          "name": "白山坂上",
-          "latitude": 35.500567,
-          "longitude": 139.551548
-        },
-        {
-          "name": "白山みどり",
-          "latitude": 35.502297,
-          "longitude": 139.553833
-        },
-        {
-          "name": "白山中央",
-          "latitude": 35.504432,
-          "longitude": 139.557569
-        },
-        {
-          "name": "白山二丁目",
-          "latitude": 35.505682,
-          "longitude": 139.559469
-        },
-        {
-          "name": "白山一丁目",
-          "latitude": 35.508783,
-          "longitude": 139.560301
-        },
-        {
-          "name": "鴨居橋",
-          "latitude": 35.509494,
-          "longitude": 139.563101
-        },
-        {
-          "name": "鴨居駅前",
-          "latitude": 35.51032,
-          "longitude": 139.567434
-        },
-        {
-          "name": "東通",
-          "latitude": 35.507251,
-          "longitude": 139.568346
-        },
-        {
-          "name": "南通（緑区）",
-          "latitude": 35.504418,
-          "longitude": 139.568277
-        },
-        {
-          "name": "原通",
-          "latitude": 35.503728,
-          "longitude": 139.57098
-        },
-        {
-          "name": "菅田町",
-          "latitude": 35.503164,
-          "longitude": 139.574461
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500061,
-          "longitude": 139.576223
-        },
-        {
-          "name": "西菅田団地",
-          "latitude": 35.498008,
-          "longitude": 139.574229
-        }
-      ]
-    },
-    {
-      "courseId": "0001600340",
-      "route": "326系統急行",
-      "destination": "西菅田団地経由 横浜駅西口行",
-      "direction": "yokohama",
-      "stopCount": 27,
-      "stops": [
-        {
-          "name": "緑車庫前",
-          "latitude": 35.506643,
-          "longitude": 139.558419
-        },
-        {
-          "name": "白山一丁目",
-          "latitude": 35.508783,
-          "longitude": 139.560301
-        },
-        {
-          "name": "鴨居橋",
-          "latitude": 35.509494,
-          "longitude": 139.563101
-        },
-        {
-          "name": "鴨居駅前",
-          "latitude": 35.51032,
-          "longitude": 139.567434
-        },
-        {
-          "name": "東通",
-          "latitude": 35.507251,
-          "longitude": 139.568346
-        },
-        {
-          "name": "南通（緑区）",
-          "latitude": 35.504418,
-          "longitude": 139.568277
-        },
-        {
-          "name": "原通",
-          "latitude": 35.503728,
-          "longitude": 139.57098
-        },
-        {
-          "name": "菅田町",
-          "latitude": 35.503164,
-          "longitude": 139.574461
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500061,
-          "longitude": 139.576223
-        },
-        {
-          "name": "西菅田団地",
-          "latitude": 35.497969,
-          "longitude": 139.574025
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500523,
-          "longitude": 139.576491
-        },
-        {
-          "name": "ひまわり団地前",
-          "latitude": 35.502028,
-          "longitude": 139.5793
-        },
-        {
-          "name": "小川橋",
-          "latitude": 35.500676,
-          "longitude": 139.582431
-        },
-        {
-          "name": "道路碑前",
-          "latitude": 35.500981,
-          "longitude": 139.584575
-        },
-        {
-          "name": "中村",
-          "latitude": 35.500812,
-          "longitude": 139.587806
-        },
-        {
-          "name": "長導寺前",
-          "latitude": 35.500609,
-          "longitude": 139.591896
-        },
-        {
-          "name": "猿渡",
-          "latitude": 35.499798,
-          "longitude": 139.59471
-        },
-        {
-          "name": "神明社入口",
-          "latitude": 35.499635,
-          "longitude": 139.598551
-        },
-        {
-          "name": "熊の堂",
-          "latitude": 35.498504,
-          "longitude": 139.600991
-        },
-        {
-          "name": "菅田町入口",
-          "latitude": 35.496997,
-          "longitude": 139.602738
-        },
-        {
-          "name": "片倉町駅前",
-          "latitude": 35.490219,
-          "longitude": 139.606881
-        },
-        {
-          "name": "神大寺",
-          "latitude": 35.486943,
-          "longitude": 139.616143
-        },
-        {
-          "name": "六角橋西町",
-          "latitude": 35.486788,
-          "longitude": 139.61854
-        },
-        {
-          "name": "神奈川大学入口",
-          "latitude": 35.486939,
-          "longitude": 139.623691
-        },
-        {
-          "name": "東白楽",
-          "latitude": 35.482808,
-          "longitude": 139.629752
-        },
-        {
-          "name": "東神奈川駅西口",
-          "latitude": 35.478297,
-          "longitude": 139.633033
-        },
-        {
-          "name": "横浜駅西口",
-          "latitude": 35.466408,
-          "longitude": 139.621193
-        }
-      ]
-    },
-    {
-      "courseId": "0001601392",
-      "route": "295系統",
-      "destination": "西菅田団地行",
-      "direction": "up",
-      "stopCount": 15,
-      "stops": [
-        {
-          "name": "新横浜駅前",
-          "latitude": 35.507914,
-          "longitude": 139.616864
-        },
-        {
-          "name": "又口橋",
-          "latitude": 35.503094,
-          "longitude": 139.610128
-        },
-        {
-          "name": "山王森公園前",
-          "latitude": 35.497644,
-          "longitude": 139.607565
-        },
-        {
-          "name": "ケアプラザ入口",
-          "latitude": 35.495003,
-          "longitude": 139.604956
-        },
-        {
-          "name": "菅田町入口",
-          "latitude": 35.496197,
-          "longitude": 139.60293
-        },
-        {
-          "name": "熊の堂",
-          "latitude": 35.499149,
-          "longitude": 139.59991
-        },
-        {
-          "name": "神明社入口",
-          "latitude": 35.499727,
-          "longitude": 139.597671
-        },
-        {
-          "name": "猿渡",
-          "latitude": 35.499715,
-          "longitude": 139.595145
-        },
-        {
-          "name": "長導寺前",
-          "latitude": 35.500514,
-          "longitude": 139.591264
-        },
-        {
-          "name": "中村",
-          "latitude": 35.500517,
-          "longitude": 139.587267
-        },
-        {
-          "name": "道路碑前",
-          "latitude": 35.500866,
-          "longitude": 139.584865
-        },
-        {
-          "name": "小川橋",
-          "latitude": 35.500566,
-          "longitude": 139.582729
-        },
-        {
-          "name": "ひまわり団地前",
-          "latitude": 35.501931,
-          "longitude": 139.579215
-        },
-        {
-          "name": "西菅田団地入口",
-          "latitude": 35.500061,
-          "longitude": 139.576223
-        },
-        {
-          "name": "西菅田団地",
-          "latitude": 35.498008,
-          "longitude": 139.574229
+          "name": "横浜駅前",
+          "latitude": 35.465257,
+          "longitude": 139.625359
         }
       ]
     }
