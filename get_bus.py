@@ -30,14 +30,14 @@ courses = [
     "direction": "up"
 },
 {
-    "courseId": "0001600989",
+    "courseId": "0001600987",
     "route": "8系統",
     "destination": "横浜駅前行",
     "direction": "up"
 },
 
 {
-    "courseId": "0001600987",
+    "courseId": "0001600983",
     "route": "8系統",
     "destination": "三渓園入口経由 横浜駅前行",
     "direction": "up"
