@@ -379,9 +379,9 @@ function removeOldBuses(buses){
 async function updateBus(){
   try{
     const response=await fetch(
-      "bus_position.json?"+Date.now(),
-      {cache:"no-store"}
-    );
+  "route_stops.json?"+Date.now(),
+  {cache:"no-store"}
+);
 
     if(!response.ok){
       throw new Error("bus_position.json を読み込めません");
