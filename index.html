@@ -127,10 +127,8 @@ const busElements={};
    route_stops.json
 ---------------------------------------- */
 async function loadRouteStops(){
-  const response = await fetch(
-  "route_stops.json?"+Date.now(),
-  {cache:"no-store"}
-);
+  const buses=Array.isArray(data.buses)?data.buses:[];
+  
   if(!response.ok) throw new Error("route_stops.json を読み込めません");
   const data=await response.json();
   if(!Array.isArray(data.routes)) throw new Error("route_stops.json の形式が正しくありません");
