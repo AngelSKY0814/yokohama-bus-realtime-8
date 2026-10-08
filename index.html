@@ -128,7 +128,7 @@ const busElements={};
 ---------------------------------------- */
 async function loadRouteStops(){
   const response = await fetch(
-  "https://late-morning-6465.angelsky-sora-mm-0814.workers.dev/",
+  "route_stops.json?"+Date.now(),
   {cache:"no-store"}
 );
   if(!response.ok) throw new Error("route_stops.json を読み込めません");
