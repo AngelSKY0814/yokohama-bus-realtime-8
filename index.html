@@ -388,7 +388,9 @@ async function updateBus(){
     }
 
     const data=await response.json();
-    const buses=Array.isArray(data.buses)?data.buses:[];
+    const buses=Array.isArray(data.buses)
+  ? data.buses.filter(bus => bus.route === "8系統")
+  : [];
 
     document.getElementById("busCount").textContent=buses.length;
     document.getElementById("updateTime").textContent=
