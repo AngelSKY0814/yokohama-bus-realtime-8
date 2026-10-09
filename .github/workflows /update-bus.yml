@@ -34,3 +34,8 @@ jobs:
           git add bus_position.json
           git diff --cached --quiet || git commit -m "バス情報を更新"
           git push
+          const data = await response.json();
+
+console.log("取得した全データ:", data);
+console.log("busesの中身:", data.buses);
+}
