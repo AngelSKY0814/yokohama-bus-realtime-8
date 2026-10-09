@@ -127,7 +127,10 @@ const busElements={};
    route_stops.json
 ---------------------------------------- */
 async function loadRouteStops(){
-  const buses=Array.isArray(data.buses)?data.buses:[];
+  const response = await fetch(
+    "route_stops.json?"+Date.now(),
+    {cache:"no-store"}
+  );
   
   if(!response.ok) throw new Error("route_stops.json を読み込めません");
   const data=await response.json();
