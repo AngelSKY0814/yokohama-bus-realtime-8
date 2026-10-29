@@ -124,30 +124,37 @@ let routeStopsData={};
 const busElements={};
 
 /* ---------------------------------------
-   route_stops.json
+route_stops.json
 ---------------------------------------- */
 async function loadRouteStops(){
-  const response = await fetch(
-    "route_stops.json?"+Date.now(),
-    {cache:"no-store"}
-  );
-  
-  if(!response.ok) throw new Error("route_stops.json を読み込めません");
-  const data=await response.json();
-  if(!Array.isArray(data.routes)) throw new Error("route_stops.json の形式が正しくありません");
+const response=await fetch(
+  "route_stops.json?"+Date.now(),
+  {cache:"no-store"}
+);
+if(!response.ok){
+throw new Error("route_stops.json を読み込めません");
+}
 
-  routeStopsData={};
-  for(const route of data.routes){
-    routeStopsData[String(route.courseId)]=route;
-  }
+const data=await response.json();
 
-  document.getElementById("routeStatus").textContent=
-    "19路線の停留所情報を読み込みました。";
+if(!Array.isArray(data.routes)){
+throw new Error("route_stops.json の形式が正しくありません");
+}
+
+routeStopsData={};
+
+for(const route of data.routes){
+routeStopsData[String(route.courseId)]=route;
+}
+
+document.getElementById("routeStatus").textContent=
+"路線の停留所情報を読み込みました。";
 }
 
 /* ---------------------------------------
-   GPS距離計算
+GPS距離計算
 ---------------------------------------- */
+
 function toXY(lat,lon,baseLat){
   const rlat=Number(lat)*Math.PI/180;
   return {
@@ -379,7 +386,7 @@ function removeOldBuses(buses){
 ---------------------------------------- */
 async function updateBus(){
   try{
-    const response=await fetch(
+   const response=await fetch(
   "https://winter-voice-5c8a.angelsky-sora-mm-0814.workers.dev/",
   {cache:"no-store"}
 );
@@ -389,9 +396,7 @@ async function updateBus(){
     }
 
     const data=await response.json();
-    const buses=Array.isArray(data.buses)
-  ? data.buses.filter(bus => bus.route === "8系統")
-  : [];
+    const buses=Array.isArray(data.buses)?data.buses:[];
 
     document.getElementById("busCount").textContent=buses.length;
     document.getElementById("updateTime").textContent=
